@@ -1,0 +1,1702 @@
+<!DOCTYPE html><html><head>
+      <title>自動販売機</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\masaki-kato\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.18\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="自動販売機モデル">自動販売機モデル </h1>
+<h2 id="開発プロセスについて">開発プロセスについて </h2>
+<ul>
+<li>PlantUMLでのダイアグラムをEnterorise Archtect(EA)のSysMLを使ったMBSEベースの開発プロセスに置き換えます。</li>
+<li>AI検証のためEAのダイアグラムをEAのAPIを使ってPNG形式の画像ファイルに変換します。
+<ul>
+<li>pythonを使ってEAファイルから画像ファイルを抽出します</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="プロセスフロー">プロセスフロー </h2>
+<hr>
+<h2 id="システム目標">システム目標 </h2>
+<hr>
+<h2 id="stpaによる安全制約ハザード分析">STPAによる安全制約・ハザード分析 </h2>
+<hr>
+<h2 id="要求図">要求図 </h2>
+<ul>
+<li>自動販売機に対して関係者（利用者、管理者、メンテナンス担当者など）が持つ要求や期待事項を整理し、システムが満たすべき要件を視覚的にまとめた図です。これにより、システムの目的や全体像、関係者ごとのニーズを俯瞰的に把握できます。</li>
+</ul>
+<p><img src="./%E8%A6%81%E6%B1%82%E5%9B%B3/%E8%87%AA%E5%8B%95%E8%B2%A9%E5%A3%B2%E6%A9%9F_%E8%A6%81%E6%B1%82%E5%9B%B3.png" alt="要求図"></p>
+<hr>
+<h2 id="ユースケース図">ユースケース図 </h2>
+<ul>
+<li>自動販売機の利用者や管理者などのアクターと、システムが提供する主要な機能（ユースケース）との関係を視覚的に示します。</li>
+</ul>
+<p><img src="./%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9%E5%9B%B3/%E8%87%AA%E5%8B%95%E8%B2%A9%E5%A3%B2%E6%A9%9F_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9%E5%9B%B3.png" alt="ユースケース図"></p>
+<hr>
+<h2 id="コンテキスト図">コンテキスト図 </h2>
+<ul>
+<li>自動販売機システムと外部システムやアクターとの情報のやり取りや関係性を俯瞰的に表現します。</li>
+</ul>
+<p><img src="./%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E5%9B%B3/%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E5%9B%B3.png" alt="コンテキスト図"></p>
+<hr>
+<h2 id="ユースケース記述">ユースケース記述 </h2>
+<ul>
+<li>各ユースケース（機能）の具体的な流れや条件、例外などを文章で詳細に記述します。</li>
+</ul>
+<p></p><h1 id="ユースケース-お金を投入する">ユースケース: お金を投入する </h1>
+<h2 id="概要">概要 </h2>
+<p>利用者が自動販売機に現金もしくはキャッシュレス手段でお金を投入し、投入金額が増えるごとに選択可能な商品の選択状態を更新する。</p>
+<h2 id="アクター">アクター </h2>
+<ul>
+<li>利用者</li>
+</ul>
+<h2 id="事前条件">事前条件 </h2>
+<ul>
+<li>自動販売機が稼働中であること</li>
+</ul>
+<h2 id="事後条件">事後条件 </h2>
+<ul>
+<li>システムが投入された金額を正しく認識し、現時点で購入可能な商品を表示する。</li>
+</ul>
+<h2 id="基本フロー">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">利用者は現金（硬貨・紙幣）またはキャッシュレス決済手段で支払い操作を行う。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">システムは投入された金額を認識し、画面やディスプレイに合計投入金額を表示する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">システムは現在の投入金額で購入可能な商品ボタンを点灯/選択可に、金額不足の商品ボタンを消灯/選択不可にする。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">利用者は投入を継続するか（【BF-1】）、商品選択（「商品を選択し購入する」ユースケースへ遷移）を行う。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐">分岐 </h3>
+<ul>
+<li>【BF-1】で受け入れ不可なコイン・紙幣・カードの投入、不正操作、読み取りエラーの場合→例外フロー【EF-1】へ</li>
+<li>【BF-2】で金額認識不能の場合→例外フロー【EF-2】へ</li>
+<li>【BF-4】で取引キャンセルや一定時間無操作の場合→代替フロー【AF-1】へ</li>
+</ul>
+<h2 id="代替フロー">代替フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">AF-1-1</td>
+<td style="text-align:left">利用者がキャンセルボタンを押す、または一定時間無操作の場合。</td>
+</tr>
+<tr>
+<td style="text-align:center">AF-1-2</td>
+<td style="text-align:left">システムは投入済みの金額（未使用分）を返却する。</td>
+</tr>
+<tr>
+<td style="text-align:center">AF-1-3</td>
+<td style="text-align:left">処理終了。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="例外フロー">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">投入されたお金・カード等が使用不可能（破損、異物、規格外等）の場合、システムは該当投入物を返却し、「使用できません」と通知する。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">利用者は再度投入するか、取引をキャンセルする（必要に応じてAF-1-1へ）。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-2-1</td>
+<td style="text-align:left">金額認識機構に障害が発生した場合、システムは全投入金額を返却しエラー表示を行う。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-2-2</td>
+<td style="text-align:left">処理終了。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考">備考 </h2>
+<ul>
+<li>硬貨・紙幣は受入不可額を自動で返却し、金額認識不能時はシステムエラーとする。</li>
+<li>商品購入までに投入額を超える商品は自動的に選択不可状態に制御されている。</li>
+<li>商品選択後も追加投入できる仕様の機種もあるが、その場合はフロー調整が必要。</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E3%81%8A%E9%87%91%E3%82%92%E6%8A%95%E5%85%A5%E3%81%99%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><h1 id="ユースケース-商品一覧を表示する">ユースケース: 商品一覧を表示する </h1>
+<h2 id="概要-1">概要 </h2>
+<p>自動販売機の前面には、現在購入可能な商品の一覧が常時表示されており、利用者は任意のタイミングで商品を確認できる。</p>
+<h2 id="アクター-1">アクター </h2>
+<ul>
+<li>利用者</li>
+</ul>
+<h2 id="事前条件-1">事前条件 </h2>
+<ul>
+<li>自動販売機の電源がONになっていること。</li>
+<li>商品が陳列・表示されていること。</li>
+</ul>
+<h2 id="事後条件-1">事後条件 </h2>
+<ul>
+<li>利用者が購入可能な商品を視認できる。</li>
+<li>最新の在庫状況・金額が反映された商品情報が表示されている。</li>
+</ul>
+<h2 id="基本フロー-1">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">自動販売機は商品の一覧（商品名・価格・在庫状況等）を前面パネルやディスプレイに常時表示している。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">利用者は自動販売機の前面を通じて、現在購入可能な商品を確認する。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-1">分岐 </h3>
+<ul>
+<li>【BF-1】で商品の情報取得や表示に障害が発生した場合、例外フロー【EF-1】へ。</li>
+</ul>
+<h2 id="代替フロー-1">代替フロー </h2>
+<ul>
+<li>本ユースケースは代替フローを持ちません（利用者の操作を必要とせず、自動/常時表示であるため）。</li>
+</ul>
+<h2 id="例外フロー-1">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">システムが商品の情報取得や表示に失敗した場合、画面もしくはLED表示により「一部商品情報が表示できません」等のエラー情報を表示する。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">システムは対応可能な場合、自動的に情報の再取得や再表示を試みる。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-1">備考 </h2>
+<ul>
+<li>売切れ商品には「売切」などの明示的な表示を行う。</li>
+<li>故障やエラーが発生した場合は「販売停止中」等のステータス表示が行われる。</li>
+<li>利用者による明示的な操作（ボタン押下等）は不要であり、アクションは観察（視認）のみ。</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E5%95%86%E5%93%81%E4%B8%80%E8%A6%A7%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><p>ユースケース: 釣銭・返金を受け取る</p>
+<h2 id="概要-2">概要 </h2>
+<p>利用者が自動販売機の釣銭レバー（返金レバー）を操作し、釣銭または投入金額の返金を受け取るまでの流れ。</p>
+<h2 id="アクター-2">アクター </h2>
+<ul>
+<li>利用者</li>
+</ul>
+<h2 id="事前条件-2">事前条件 </h2>
+<ul>
+<li>自動販売機に投入済みの金額があること</li>
+<li>商品を購入し終え釣銭が発生している、または商品未選択でキャンセル（返金）希望の状態であること</li>
+</ul>
+<h2 id="事後条件-2">事後条件 </h2>
+<ul>
+<li>利用者が釣銭または返金金額を受け取る</li>
+<li>システム（自動販売機）は釣銭・返金処理を完了状態とする</li>
+</ul>
+<h2 id="基本フロー-2">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">利用者は釣銭レバー（返金レバー）を操作する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">システムは釣銭または投入する金額分の返金を釣銭・返金取り出し口に払い出す。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">システムは釣銭・返金ランプ点灯やブザー音等で「お釣り（返金）をお取りください」と案内する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">利用者は釣銭または返金金額を取り出し口から受け取る。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-2">分岐 </h3>
+<ul>
+<li>【BF-2】釣銭詰まりや釣銭切れ等で正常に払い出せない場合、例外フロー【EF-1】へ。</li>
+<li>【BF-4】で一定時間受け取りがなかった場合、代替フロー【AF-1】へ。</li>
+</ul>
+<h2 id="代替フロー-2">代替フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">AF-1-1</td>
+<td style="text-align:left">一定時間釣銭や返金未受領の場合、システムは再度音声やランプで受け取りを促す。</td>
+</tr>
+<tr>
+<td style="text-align:center">AF-1-2</td>
+<td style="text-align:left">さらに一定時間経過後、釣銭・返金金額を内部保管へ移し、管理記録として残す。</td>
+</tr>
+<tr>
+<td style="text-align:center">AF-1-3</td>
+<td style="text-align:left">フロー終了。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="例外フロー-2">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">釣銭・返金の払い出しに障害（釣銭切れ、詰まり等）が発生した場合、システムはエラーメッセージや警告ランプ等で通知する。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">利用者への返金不能・トラブル内容をディスプレイ等で案内し、必要に応じて管理会社への連絡先も表示する。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-3</td>
+<td style="text-align:left">利用者は連絡先への問い合わせ等を行う。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-2">備考 </h2>
+<ul>
+<li>釣銭レバーは現金投入後のキャンセルや購入可能商品が選択されなかった場合にも返金操作として利用可能。</li>
+<li>古い形式の自動販売機では釣銭レバー操作で投入分全額返却される。</li>
+<li>一部の自動販売機ではタッチパネルやボタン式の返金操作もあるため、必要に応じて名称や操作内容は調整可。</li>
+<li>釣銭レバー操作を複数回行った場合や物理的不具合時の動作は設計により異なる。</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E9%87%A3%E9%8A%AD_%E8%BF%94%E9%87%91%E3%82%92%E5%8F%97%E3%81%91%E5%8F%96%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><h1 id="ユースケース-商品を選択し購入する">ユースケース: 商品を選択し購入する </h1>
+<h2 id="概要-3">概要 </h2>
+<p>利用者が自動販売機へお金（現金またはキャッシュレス）を投入し、希望する商品を選択して購入・受け取るまでの一連の流れ。</p>
+<h2 id="アクター-3">アクター </h2>
+<ul>
+<li>利用者</li>
+</ul>
+<h2 id="事前条件-3">事前条件 </h2>
+<ul>
+<li>自動販売機が稼働中であること</li>
+</ul>
+<h2 id="事後条件-3">事後条件 </h2>
+<ul>
+<li>利用者が選択した商品を受け取るか、未購入分のお金が返却される</li>
+</ul>
+<h2 id="基本フロー-3">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">利用者は現金（硬貨または紙幣）、もしくはキャッシュレス決済を投入・認証する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">システムは投入金額（または決済可否）を確認し、選択可能な商品を表示する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">利用者は購入したい商品の選択ボタンを押下する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">システムは選択された商品の在庫および釣銭状況を確認する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-5</td>
+<td style="text-align:left">購入可能な場合、商品を払い出し、必要に応じてお釣りを払い出す。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-6</td>
+<td style="text-align:left">利用者が商品（とお釣り）を受け取る。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-3">分岐 </h3>
+<ul>
+<li>【BF-2】や【BF-4】で商品在庫切れや釣銭不足時、例外フロー【EF-1】【EF-2】へ。</li>
+<li>【BF-1】や【BF-2】で投入金額不足時、基本フロー【BF-1】へ戻って追加投入を促す。</li>
+<li>【BF-1】【BF-2】【BF-3】～で利用者取引キャンセル時、代替フロー【AF-1】へ。</li>
+</ul>
+<h2 id="代替フロー-3">代替フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">AF-1-1</td>
+<td style="text-align:left">利用者がキャンセル操作をする、または一定時間操作がなかった場合取引タイムアウトとなる。</td>
+</tr>
+<tr>
+<td style="text-align:center">AF-1-2</td>
+<td style="text-align:left">システムは投入金額のうち未使用分の金額を全額返却する。</td>
+</tr>
+<tr>
+<td style="text-align:center">AF-1-3</td>
+<td style="text-align:left">処理終了。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="例外フロー-3">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">商品ボタン押下時【BF-4】、在庫切れまたは販売停止・メカトラブル等で購入できない場合、エラーを表示し再選択を促す。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">利用者は別の商品を選択（【BF-3】へ戻る）または取引終了時はAF-1に進む。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-2-1</td>
+<td style="text-align:left">商品選択時【BF-4/5】釣銭切れでお釣りが払えない場合、エラー通知・購入不可を表示。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-2-2</td>
+<td style="text-align:left">利用者は別の商品（お釣り不要な商品等）を選択（【BF-3】へ）、または取引キャンセル（AF-1へ）。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-3">備考 </h2>
+<ul>
+<li>投入金額未満の商品ボタンは選択できないよう照明消灯等で制御されている場合が多い。</li>
+<li>キャッシュレス決済の場合は投入→商品選択→認証→商品払い出し、となる場合もある（運用に応じて要調整）。</li>
+<li>商品受領やお釣り取り忘れ時のアラート等は省略。</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E5%95%86%E5%93%81%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E8%B3%BC%E5%85%A5%E3%81%99%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><h1 id="ユースケース-売上金を回収する">ユースケース: 売上金を回収する </h1>
+<h2 id="概要-4">概要 </h2>
+<p>管理者が自動販売機から売上金（硬貨・紙幣等）を安全かつ適切に回収し、売上金管理の記録を行う一連の流れ。</p>
+<h2 id="アクター-4">アクター </h2>
+<ul>
+<li>管理者</li>
+</ul>
+<h2 id="事前条件-4">事前条件 </h2>
+<ul>
+<li>管理者が自動販売機の解錠権限を持っていること</li>
+<li>自動販売機が回収作業可能な状態にあること（メンテナンスモード等）</li>
+</ul>
+<h2 id="事後条件-4">事後条件 </h2>
+<ul>
+<li>売上金が適切に回収・封入され、売上履歴・回収履歴が更新される</li>
+</ul>
+<h2 id="基本フロー-4">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">管理者は自動販売機の施錠を解除し、回収用ドアを開く。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">システム（機械内部）は売上金（現金収納箱・釣銭ボックス等）へのアクセスを許可する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">管理者は売上金（硬貨・紙幣）収納箱を取り外し、売上金を回収する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">必要に応じて釣銭ボックスに釣銭を補充、または点検する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-5</td>
+<td style="text-align:left">管理者は収納箱をもとの位置に戻し、ドアを閉じて施錠する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-6</td>
+<td style="text-align:left">システムまたは管理者は回収日時・回収担当などの回収履歴を記録する（自動記録、または紙の記録）。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-4">分岐 </h3>
+<ul>
+<li>【BF-2】【BF-3】でエラーや不具合（収納箱が外れない、現金詰まり等）が発生した場合→例外フロー【EF-1】へ</li>
+<li>【BF-6】で記録機能が正しく作動しない場合→例外フロー【EF-2】へ</li>
+</ul>
+<h2 id="例外フロー-4">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">機械内部故障、収納箱が詰まっている等で売上金が取り出せない場合、システムは警告を表示しメンテナンス担当への対応を促す。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">管理者は現地での対処、または別途メンテナンス依頼を行い、処理終了。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-2-1</td>
+<td style="text-align:left">回収履歴の記録ができなかった場合、管理者は紙で記録する、管理者に報告する等別手続きをとる。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-2-2</td>
+<td style="text-align:left">処理終了。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-4">備考 </h2>
+<ul>
+<li>売上金回収時には回収袋等への封入や、作業記録票への記入などの現場運用が伴う場合がある。</li>
+<li>最新機種では回収時に自動で現金残高や回収時刻が端末・コネクタ等に記録されることも多い。</li>
+<li>防犯上、回収操作時は必ず施錠・解錠管理や警報システム連動が行われている場合がある。</li>
+<li>管理者が釣銭補充・商品補充を同時に行う場合もあるが、本ユースケースでは現金回収にフォーカスしている。</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E5%A3%B2%E4%B8%8A%E9%87%91%E3%82%92%E5%9B%9E%E5%8F%8E%E3%81%99%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><h1 id="ユースケース-商品を補充する">ユースケース: 商品を補充する </h1>
+<h2 id="概要-5">概要 </h2>
+<p>管理者が自動販売機に新たな商品を補充し、補充内容や在庫状況をシステムに記録するまでの流れ。</p>
+<h2 id="アクター-5">アクター </h2>
+<ul>
+<li>管理者</li>
+</ul>
+<h2 id="事前条件-5">事前条件 </h2>
+<ul>
+<li>管理者が自動販売機の解錠権限を持っていること</li>
+<li>補充する商品が補充担当者に用意されていること</li>
+</ul>
+<h2 id="事後条件-5">事後条件 </h2>
+<ul>
+<li>商品が自動販売機に正しく補充され、在庫数・補充履歴などが記録される</li>
+</ul>
+<h2 id="基本フロー-5">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">管理者は自動販売機の施錠を解除し、補充用ドアを開ける。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">システムは商品収納庫へのアクセスを許可し、在庫状況を表示する（在庫数表示など）。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">管理者は各商品ごとに在庫補充が必要かを確認し、該当商品を補充する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">補充完了後、必要に応じてシステムに補充内容や在庫数を入力・登録する（自動検知/手動入力）。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-5</td>
+<td style="text-align:left">管理者は商品収納庫の蓋を閉め、ドアを施錠する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-6</td>
+<td style="text-align:left">システムまたは管理者は補充日時・担当者などの履歴を記録する。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-5">分岐 </h3>
+<ul>
+<li>【BF-3】で収納庫の故障やスペース不足（満杯）などが発生した場合→例外フロー【EF-1】へ</li>
+<li>【BF-4】で補充情報の入力ミスや登録不能の場合→例外フロー【EF-2】へ</li>
+</ul>
+<h2 id="例外フロー-5">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">商品収納庫の機械的な故障や満杯でこれ以上補充できない場合、システムはエラー表示またはアラートを発し、管理者へ通知。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">管理者は当該商品について補充を中断し、処理終了またはメンテナンスを依頼。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-2-1</td>
+<td style="text-align:left">システムへの補充内容入力や在庫登録に失敗した場合、再入力や異常記録を促す。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-2-2</td>
+<td style="text-align:left">必要に応じて管理者または本部へ連絡し、処理終了。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-5">備考 </h2>
+<ul>
+<li>商品補充は一般的に売上金回収や釣銭補充と同時に行われることが多い。</li>
+<li>在庫管理・補充履歴は機種により自動登録や手入力登録のいずれの場合もある。</li>
+<li>温度管理や賞味期限チェックが必要な商品についても適宜点検が行われる。</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E5%95%86%E5%93%81%E3%82%92%E8%A3%9C%E5%85%85%E3%81%99%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><h1 id="ユースケース-釣銭を補充する">ユースケース: 釣銭を補充する </h1>
+<h2 id="概要-6">概要 </h2>
+<p>管理者が自動販売機の釣銭装置へ必要な硬貨や紙幣を補充し、釣銭切れを防止する業務の流れ。</p>
+<h2 id="アクター-6">アクター </h2>
+<ul>
+<li>管理者</li>
+</ul>
+<h2 id="事前条件-6">事前条件 </h2>
+<ul>
+<li>管理者が自動販売機の解錠権限を持っていること</li>
+<li>補充用の硬貨および紙幣が準備されていること</li>
+</ul>
+<h2 id="事後条件-6">事後条件 </h2>
+<ul>
+<li>必要な釣銭が適切に補充され、釣銭残量・補充履歴などが記録される</li>
+</ul>
+<h2 id="基本フロー-6">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">管理者は自動販売機の施錠を解除し、釣銭補充用ドアまたはカバーを開ける。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">システムは釣銭装置へのアクセスを許可し、現在の釣銭残量を表示する（システム自動表示または目視確認）。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">管理者は不足する硬貨や紙幣をそれぞれの釣銭ユニットに適切な枚数補充する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">補充完了後、必要に応じて補充内容をシステムに入力・記録する（自動/手動選択可）。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-5</td>
+<td style="text-align:left">管理者は釣銭装置の状態を点検し、補充用ドアを閉じて施錠する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-6</td>
+<td style="text-align:left">システムまたは管理者は補充日時・担当者などの補充履歴を記録する。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-6">分岐 </h3>
+<ul>
+<li>【BF-3】で釣銭ユニットの故障や満杯、誤投入などが発生した場合→例外フロー【EF-1】へ</li>
+<li>【BF-4】で補充内容の記録ミスや登録不能の場合→例外フロー【EF-2】へ</li>
+</ul>
+<h2 id="例外フロー-6">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">釣銭ユニットの機械的な故障や満杯、誤投入が発生した場合、システムはエラー表示・アラートを発し、管理者へ通知。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">管理者はそのユニットの補充を中断し、必要に応じてメンテナンス依頼、または報告を行い処理終了。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-2-1</td>
+<td style="text-align:left">システムや帳票への補充内容入力や在庫登録に失敗した場合、再入力や異常記録を促す。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-2-2</td>
+<td style="text-align:left">必要に応じて現地管理者や本部等へ連絡し、処理終了。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-6">備考 </h2>
+<ul>
+<li>釣銭補充は商品補充や売上金回収業務とあわせて実施することが多い。</li>
+<li>補充後の動作確認（テスト払い出し等）を実施する運用もある。</li>
+<li>機種によっては釣銭装置ごと交換する方式や補充量自動入力方式も存在する。</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E9%87%A3%E9%8A%AD%E3%82%92%E8%A3%9C%E5%85%85%E3%81%99%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><h1 id="ユースケース-販売商品を変更する">ユースケース: 販売商品を変更する </h1>
+<h2 id="概要-7">概要 </h2>
+<p>管理者が自動販売機内の販売商品を入替え、変更内容をシステムに登録・反映させるまでの流れ。</p>
+<h2 id="アクター-7">アクター </h2>
+<ul>
+<li>管理者</li>
+</ul>
+<h2 id="事前条件-7">事前条件 </h2>
+<ul>
+<li>管理者が自動販売機の管理・解錠権限を有している</li>
+<li>新たな販売商品の在庫が準備されている</li>
+</ul>
+<h2 id="事後条件-7">事後条件 </h2>
+<ul>
+<li>新しい販売商品が自動販売機内にセットされ、システムにも正しく登録・反映される</li>
+</ul>
+<h2 id="基本フロー-7">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">管理者は自動販売機の施錠を解除し、補充・設定用ドアを開ける。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">システムまたは現物確認で現在販売されている商品のリストと配置を確認する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">販売を終了する商品を取り出し、新たな販売商品と差替え・補充する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">必要に応じて商品ごとの価格や商品名、ボタン・ディスプレイの表示などを設定・変更する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-5</td>
+<td style="text-align:left">システムに商品変更内容を登録・入力する（自動連動または手動入力）。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-6</td>
+<td style="text-align:left">管理者は商品の配置・数量・表示など最終確認を行い、ドアを施錠する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-7</td>
+<td style="text-align:left">システム（または管理者）は変更日時や担当者・変更内容等を履歴として記録する。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-7">分岐 </h3>
+<ul>
+<li>【BF-3】で商品収納部に商品が残っており交換不能、または新商品がうまくセットできない場合 → 例外フロー【EF-1】へ</li>
+<li>【BF-4】や【BF-5】で設定や登録時にエラーが発生した場合 → 例外フロー【EF-2】へ</li>
+</ul>
+<h2 id="例外フロー-7">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">商品収納部のトラブル・満杯・残品等で新商品への切替ができない場合、管理者は現場措置またはメンテナンス担当へ連絡する。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">対象商品の交換を中断し、必要に応じて該当行のみ現状維持とする。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-2-1</td>
+<td style="text-align:left">システムへの商品情報登録や、価格・表示情報変更に失敗した場合、再登録または紙帳票記入を行う。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-2-2</td>
+<td style="text-align:left">必要に応じて管理者または本部へ報告し、処理終了。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-7">備考 </h2>
+<ul>
+<li>商品変更後は在庫数や価格・キャンペーン情報等も同時に調整・登録する場合がある。</li>
+<li>一部機種ではネットワーク経由で本部システムから商品設定が可能なものもある。</li>
+<li>商品名や画像ラベル、ボタンプレート等の物理的な入替え・貼り替えなども必要な場合がある。</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E8%B2%A9%E5%A3%B2%E5%95%86%E5%93%81%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><h1 id="ユースケース-機械の状態を確認する">ユースケース: 機械の状態を確認する </h1>
+<h2 id="概要-8">概要 </h2>
+<p>管理者（担当者）が自動販売機の稼働状況、内部在庫、エラー状況、売上や釣銭残量などを現地または遠隔で点検・確認するまでの流れ。</p>
+<h2 id="アクター-8">アクター </h2>
+<ul>
+<li>管理者</li>
+</ul>
+<h2 id="事前条件-8">事前条件 </h2>
+<ul>
+<li>管理者が自動販売機の確認権限を有している</li>
+<li>確認に必要な機器（ICカード/認証キー/遠隔監視端末等）が準備されている</li>
+</ul>
+<h2 id="事後条件-8">事後条件 </h2>
+<ul>
+<li>機械状態が確認され、必要であれば点検・保守等の次の業務に情報提供される</li>
+</ul>
+<h2 id="基本フロー-8">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">管理者は現地に赴く、または遠隔システムにログインして、指定の自動販売機を選択する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">現地の場合はドアロック解除や点検モードへの切替などの操作を行う。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">システムから最新の状態情報（稼働中/停止中、在庫数、売上、釣銭残量、エラーログ等）を一覧で表示・取得する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">管理者は画面・ログ・LEDランプ等を確認し、必要な情報（異常・不足・警報など）を点検票や管理端末に記録する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-5</td>
+<td style="text-align:left">必要に応じて現場で調整・補充・保守等の後続作業に着手する。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-8">分岐 </h3>
+<ul>
+<li>【BF-3】で状態取得に失敗（通信不可・端末故障等）の場合 → 例外フロー【EF-1】へ</li>
+<li>【BF-4】で異常や複数の問題が検出された場合、関連するユースケース（故障対応、商品・釣銭補充など）へ遷移</li>
+</ul>
+<h2 id="例外フロー-8">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">システムまたは現地端末で状態情報が取得できない場合、管理者は通信再試行等を行う。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">改善できない場合はメンテナンス担当や管理部門に報告し、必要に応じて再訪や機器交換等を手配する。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-8">備考 </h2>
+<ul>
+<li>遠隔監視システムにより複数台の状態を一括管理できる場合もある</li>
+<li>状況確認後に、そのまま商品の補充・売上金回収・故障対応・釣銭補充等の保守作業に移行することが多い</li>
+<li>状態確認には温度、ドア開閉状況、防犯センサー等の確認も含まれる場合がある</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E6%A9%9F%E6%A2%B0%E3%81%AE%E7%8A%B6%E6%85%8B%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B.png" alt="ユースケース記述"></p>
+<hr>
+<p></p><h1 id="ユースケース-故障対応を行う">ユースケース: 故障対応を行う </h1>
+<h2 id="概要-9">概要 </h2>
+<p>メンテナンス担当者が自動販売機の故障・障害報告を受け、現地または遠隔操作により点検・原因調査、必要な修理・復旧対応を実施する。</p>
+<h2 id="アクター-9">アクター </h2>
+<ul>
+<li>メンテナンス担当者</li>
+</ul>
+<h2 id="事前条件-9">事前条件 </h2>
+<ul>
+<li>故障や異常を示すアラートが利用者や監視システムから報告されている</li>
+<li>メンテナンス担当者が自動販売機の解錠・操作権限などを有している</li>
+</ul>
+<h2 id="事後条件-9">事後条件 </h2>
+<ul>
+<li>故障・障害が解決され、正常運用状態へ復旧し、対応内容・履歴が記録される</li>
+</ul>
+<h2 id="基本フロー-9">基本フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BF-1</td>
+<td style="text-align:left">故障・異常の通報または自動アラートをメンテナンス担当者が受信する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-2</td>
+<td style="text-align:left">メンテナンス担当者は現地に赴くか、遠隔システムから該当自動販売機の状態を確認する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-3</td>
+<td style="text-align:left">メンテナンス担当者はエラーランプやメッセージ、ログデータ等から故障箇所や不具合の内容を調査・特定する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-4</td>
+<td style="text-align:left">必要に応じて自動販売機を解錠し、内部の点検・テスト（部品交換、清掃、配線確認など）を実施する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-5</td>
+<td style="text-align:left">小修理（詰まり解除、リセット、ユニット交換など）を行い、不具合を解消する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-6</td>
+<td style="text-align:left">システムや現場で動作確認テストを行い、正常稼働を確認する。</td>
+</tr>
+<tr>
+<td style="text-align:center">BF-7</td>
+<td style="text-align:left">再発防止のための対応や消耗部品交換、必要に応じて故障原因・対応内容をシステムへ記録する。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分岐-9">分岐 </h3>
+<ul>
+<li>【BF-3】で現場対応不能（重大故障・専用部品不足等）が判明した場合→例外フロー【EF-1】へ</li>
+<li>【BF-5】【BF-6】で問題が解決しない場合→例外フロー【EF-2】へ</li>
+</ul>
+<h2 id="例外フロー-9">例外フロー </h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-1-1</td>
+<td style="text-align:left">専門技術や部品手配が必要な重大故障の場合、メンテナンス担当者は本部や専門業者に修理依頼を行う。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-1-2</td>
+<td style="text-align:left">必要に応じて、一時的に販売停止措置・警告表示をセットする。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">フローID</th>
+<th style="text-align:left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EF-2-1</td>
+<td style="text-align:left">現地での故障対応・小修理によっても復旧不可の場合、機器の交換や運用停止・再訪問手配など中長期対応に切り替える。</td>
+</tr>
+<tr>
+<td style="text-align:center">EF-2-2</td>
+<td style="text-align:left">関連部署へ報告し、現場での安全確認を行う。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備考-9">備考 </h2>
+<ul>
+<li>故障原因や対応内容はシステムに履歴として残し、今後の予防保全に活用することがある</li>
+<li>利用者から現金・商品等の未払い出しや損失があった場合は別途対応（返金・商品提供など）も同時進行となる</li>
+<li>遠隔監視・リモートリセット対応が可能な機種では現場作業と組み合わせて運用される</li>
+</ul>
+<p></p>
+<p><img src="./%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3%E5%9B%B3_%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9/%E6%95%85%E9%9A%9C%E5%AF%BE%E5%BF%9C%E3%82%92%E8%A1%8C%E3%81%86.png" alt="ユースケース記述"></p>
+<hr>
+<h2 id="ステートマシン図">ステートマシン図 </h2>
+<hr>
+<h2 id="システム構成図">システム構成図 </h2>
+<hr>
+<h2 id="fmea分析">FMEA分析 </h2>
+<hr>
+<h2 id="fta分析">FTA分析 </h2>
+<hr>
+<h2 id="アクティビティ図機能">アクティビティ図(機能) </h2>
+<hr>
+<h2 id="stampの考え方に基づく対処">STAMPの考え方に基づく対処 </h2>
+<hr>
+<h2 id="シーケンス図_機能検証シミュレーションによる検証">シーケンス図_機能検証（シミュレーションによる検証） </h2>
+<hr>
+<h3 id="自動販売機モデル-用語集">自動販売機モデル 用語集 </h3>
+<ul>
+<li>本モデルで使用する用語や概念の定義をまとめています。</li>
+</ul>
+<h3 id="アクター-actors">アクター (Actors) </h3>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>概要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>利用者 (User):</td>
+<td>自動販売機で商品を購入する人物 。お金を投入し 、商品を選択・購入し 、釣銭や返金を受け取ります 。</td>
+</tr>
+<tr>
+<td>管理者 (Manager):</td>
+<td>自動販売機の運用管理を行う人物 。売上金の回収 、商品や釣銭の補充 、販売商品の変更 、機械の状態確認を行います 。</td>
+</tr>
+<tr>
+<td>メンテナンス担当者 (Maintenance Staff):</td>
+<td>自動販売機の保守や修理を行う人物 。故障対応を担当します 。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="システム-systems">システム (Systems) </h3>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>概要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>自動販売機 (Vending Machine):</td>
+<td>このモデルの中心となるシステム 。商品の販売、金銭の授受、在庫管理などを行います。</td>
+</tr>
+<tr>
+<td>決済システム (Payment System):</td>
+<td>電子マネーやクレジットカードによる決済を処理する外部システム 。</td>
+</tr>
+<tr>
+<td>在庫管理システム (Inventory Management System):</td>
+<td>商品や釣銭の在庫情報、補充情報を連携する外部システム 。</td>
+</tr>
+<tr>
+<td>売上管理システム (Sales Management System):</td>
+<td>売上情報を連携する外部システム 。</td>
+</tr>
+<tr>
+<td>監視システム (Monitoring System):</td>
+<td>自動販売機の状態監視や、障害・異常通知を行う外部システム 。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ユースケース--機能-use-cases--functions">ユースケース / 機能 (Use Cases / Functions) </h3>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>概要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>お金を投入する (Insert Money):</td>
+<td>利用者が現金やキャッシュレス手段で支払いを行うこと 。</td>
+</tr>
+<tr>
+<td>釣銭・返金を受け取る (Receive Change/Refund):</td>
+<td>利用者がお釣りや投入金額の返金を受け取ること 。</td>
+</tr>
+<tr>
+<td>商品一覧を表示する (Display Product List):</td>
+<td>自動販売機が購入可能な商品情報を表示すること 。</td>
+</tr>
+<tr>
+<td>商品を選択し購入する (Select and Purchase Product):</td>
+<td>利用者が希望の商品を選び、購入処理を行うこと 。</td>
+</tr>
+<tr>
+<td>売上金を回収する (Collect Sales):</td>
+<td>管理者が自動販売機から売上金を回収すること 。</td>
+</tr>
+<tr>
+<td>商品を補充する (Replenish Products):</td>
+<td>管理者が商品を自動販売機に追加すること 。</td>
+</tr>
+<tr>
+<td>釣銭を補充する (Replenish Change):</td>
+<td>管理者が釣銭用の現金を補充すること 。</td>
+</tr>
+<tr>
+<td>販売商品を変更する (Change Sales Products):</td>
+<td>管理者が販売する商品の種類や価格を変更すること 。</td>
+</tr>
+<tr>
+<td>機械の状態を確認する (Check Machine Status):</td>
+<td>管理者が自動販売機の稼働状況や在庫などを確認すること 。</td>
+</tr>
+<tr>
+<td>故障対応を行う (Handle Malfunctions):</td>
+<td>メンテナンス担当者が故障の調査や修理を行うこと 。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="内部コンポーネント-internal-components">内部コンポーネント (Internal Components) </h3>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>概要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>表示パネル (Display Panel):</td>
+<td>商品一覧や投入金額、エラーなどを表示する部分 。</td>
+</tr>
+<tr>
+<td>商品ラック (Product Rack):</td>
+<td>商品を格納し、払い出す機構 。</td>
+</tr>
+<tr>
+<td>釣銭機 (Change Machine):</td>
+<td>釣銭の計算や払い出し、残量管理を行う部分 。</td>
+</tr>
+<tr>
+<td>投入金口 (Money Slot/Input):</td>
+<td>現金やカードを受け入れる部分 。</td>
+</tr>
+<tr>
+<td>操作パネル (Control Panel):</td>
+<td>商品選択ボタンなど、利用者が操作する部分 。</td>
+</tr>
+<tr>
+<td>商品取り出し口 (Product Dispenser/Outlet):</td>
+<td>購入した商品が出てくる部分 。</td>
+</tr>
+<tr>
+<td>売上金庫 (Sales Vault):</td>
+<td>回収されるべき売上金を保管する部分 。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="フロー種別-flow-types">フロー種別 (Flow Types) </h3>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>概要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>基本フロー (Basic Flow):</td>
+<td>ユースケースにおける最も標準的で、成功した場合の処理の流れ 。</td>
+</tr>
+<tr>
+<td>代替フロー (Alternative Flow):</td>
+<td>基本フローから分岐する、別の正常な処理の流れ（例：キャンセル） 。</td>
+</tr>
+<tr>
+<td>例外フロー (Exception Flow):</td>
+<td>エラーや予期せぬ事態が発生した場合の処理の流れ 。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="その他-others">その他 (Others) </h3>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>概要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>キャッシュレス決済 (Cashless Payment):</td>
+<td>現金以外の支払い方法（電子マネー、クレジットカードなど） 。</td>
+</tr>
+<tr>
+<td>釣銭レバー (Change Lever):</td>
+<td>釣銭や投入金の返金を要求するためのレバー 。</td>
+</tr>
+<tr>
+<td>在庫切れ (Out of Stock):</td>
+<td>商品が売り切れている状態 。</td>
+</tr>
+<tr>
+<td>釣銭切れ (Out of Change):</td>
+<td>お釣りを支払うための現金が不足している状態 。</td>
+</tr>
+<tr>
+<td>メンテナンスモード (Maintenance Mode):</td>
+<td>故障対応などの保守作業を行うための動作モード 。</td>
+</tr>
+<tr>
+<td>管理モード (Management Mode):</td>
+<td>売上回収や補充など、管理者作業を行うための動作モード 。</td>
+</tr>
+<tr>
+<td>ステートマシン図 (State Machine Diagram):</td>
+<td>システムの状態とその遷移をモデル化した図 。</td>
+</tr>
+<tr>
+<td>ユースケース図 (Use Case Diagram):</td>
+<td>アクターとシステムの機能（ユースケース）との関連をモデル化した図 。</td>
+</tr>
+<tr>
+<td>アクティビティ図 (Activity Diagram):</td>
+<td>システムやビジネスプロセスのワークフローをモデル化した図 。</td>
+</tr>
+<tr>
+<td>シーケンス図 (Sequence Diagram):</td>
+<td>オブジェクト間のメッセージのやり取りを時系列でモデル化した図 。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分析手法モデル関連">分析手法・モデル関連 </h3>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>概要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STAMP (System-Theoretic Accident Model and Processes)</td>
+<td>事故やハザードを、個々の部品の故障だけでなく、システム全体の制御構造における欠陥や不適切な相互作用の結果として捉えるための包括的な事故モデルおよびプロセス群。STPAの理論的基礎となります</td>
+</tr>
+<tr>
+<td>STPA (System-Theoretic Process Analysis / システム論的プロセス分析)</td>
+<td>STAMPの考え方に基づき、システムの制御構造をモデル化し、安全でない制御行動（UCA）を特定することでハザードの原因を分析し、効果的な安全制約を導出するためのトップダウン型ハザード分析手法。</td>
+</tr>
+<tr>
+<td>UCA (Unsafe Control Action / 安全でない制御行動)</td>
+<td>STPAにおいて特定される、システムのハザード（危険源）に繋がりうるコントローラの不適切な制御行動。「提供されない」「提供される（誤った状況で）」「タイミング/順序が不適切」「継続時間が不適切」の4つのタイプで分類されます。</td>
+</tr>
+<tr>
+<td>ハザード (Hazard / 危険源)</td>
+<td>人への危害、経済的損失、環境破壊などのシステムレベルの損失（Loss）に繋がりうる可能性のあるシステムの状態や条件。STPAでは、これらのハザードを特定し、それらを排除または制御するための安全制約を導出します。 (STPAハザードのパッケージは存在しますが、用語としての汎用的な定義)</td>
+</tr>
+<tr>
+<td>安全制約 (Safety Constraint)</td>
+<td>ハザードを防止・制御するためにシステムが満たすべき制約条件。STPAの主要なアウトプットの一つであり、安全要求の基礎となります。</td>
+</tr>
+<tr>
+<td>FMEA (Failure Mode and Effects Analysis / 故障モード影響解析)</td>
+<td>システムを構成する各コンポーネントや機能の潜在的な故障モードを特定し、それがシステム全体に与える影響を分析・評価し、リスクの高い項目に対して対策を検討するボトムアップ型のリスク分析手法。</td>
+</tr>
+<tr>
+<td>FTA (Fault Tree Analysis / フォルトツリー解析)</td>
+<td>特定の望ましくない事象（トップ事象、例：システムの故障や事故）が発生する原因となる基本事象やそれらの組み合わせを、論理ゲート（AND/ORなど）を用いてツリー状に表現し、発生経路や確率を分析するトップダウン型のリスク分析手法。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="ai検証のためのプロンプト">AI検証のためのプロンプト </h3>
+<p>検証したいプロンプトにコンテキスト（該当ファイル、該当フォルダ）を追加してAIで検証を行ないます。<br>
+プロンプトはAIで生成したプロンプトの例ですので、必要に応じて修正してご利用ください</p>
+<h4 id="一貫性チェック用プロンプト">一貫性チェック用プロンプト </h4>
+<hr>
+<h4 id="1-用語id整合性チェック">1. 用語・ID整合性チェック </h4>
+<h5 id="プロンプト">プロンプト: </h5>
+<p>「以下のPlantUMLで記述された要求図、ユースケース図、ユースケース記述（テキスト）、システム構成図、ステートマシン図、および用語集のテキストを入力とします。<br>
+これらのドキュメント間で、以下の用語およびIDの一貫性を検証してください。<br>
+表記揺れ（例：大文字・小文字の違い、スペースの有無、略語とフルネームの混在、送り仮名の違い）、および、あるドキュメントで使用されている用語/IDが他の関連ドキュメントで定義されていない、または異なる意味で定義・使用されている不整合を自動検出してください。</p>
+<p>検証対象の用語・IDの例：</p>
+<p>アクター名<br>
+ユースケース名<br>
+コンポーネント名<br>
+状態名<br>
+要求ID<br>
+ユースケースID<br>
+検出した不整合箇所、その内容（例：「要求図のREQ_001とユースケース記述のreq_001は表記揺れの可能性」）、および該当するドキュメント名をリスト形式で報告してください。</p>
+<h5 id="ai検証の結果例">AI検証の結果例 </h5>
+<p>一貫性チェック結果（用語・ID整合性）</p>
+<ol>
+<li>アクター名<br>
+要求図<br>
+利用者、管理者、メンテナンス担当<br>
+ユースケース図（レビュー後）<br>
+利用者、管理者、メンテナンス担当者<br>
+不整合<br>
+「メンテナンス担当」⇔「メンテナンス担当者」<br>
+表記揺れあり。どちらかに統一推奨。</li>
+<li>ユースケース名<br>
+要求図<br>
+商品一覧を表示する、商品を選択し購入する、お金を投入する、釣銭_返金を受け取る、売上金を回収する、商品を補充する、釣銭を補充する、販売商品を変更する、故障対応を行う、機械の状態を確認する<br>
+ユースケース図（レビュー後）<br>
+商品一覧を表示する、商品を選択し購入する、お金を投入する、釣銭_返金を受け取る、売上金を回収する、商品を補充する、釣銭を補充する、販売商品を変更する、故障対応を行う、機械の状態を確認する<br>
+ユースケース記述<br>
+商品一覧を表示する、商品を選択し購入する、故障対応を行う、機械の状態を確認する など<br>
+不整合<br>
+主要ユースケース名は一致しており、表記揺れは見当たりません。</li>
+<li>要求ID<br>
+要求図<br>
+SR1, SR2, SR3, R1～R10, RQ_SAF_001～RQ_SAF_007<br>
+ユースケース図・記述<br>
+要求IDの直接的な記載はなし（トレーサビリティは要求図内で &lt;<refine>&gt; などで記述）<br>
+不整合<br>
+要求IDの表記揺れや未定義は見当たりません。</refine></li>
+<li>コンポーネント名・状態名・ユースケースID<br>
+要求図・ユースケース図・記述<br>
+コンポーネント名や状態名、ユースケースIDの表記揺れは本範囲では見当たりません。<br>
+用語集<br>
+（本プロンプト範囲には未提示ですが、もし「担当」「担当者」などの揺れがあれば統一推奨）</li>
+</ol>
+<hr>
+<h3 id="2-図間整合性チェック-要求図とユースケース図">2. 図間整合性チェック: 要求図とユースケース図 </h3>
+<h5 id="プロンプト-1">プロンプト: </h5>
+<p>「以下のPlantUMLで記述された要求図とユースケース図を入力とします。<br>
+要求図で定義された各要求（requirement）が、ユースケース図の少なくとも一つのユースケースによってリファイン（refine）または実現（realize）されているか、トレーサビリティを検証してください。<br>
+以下の点を具体的に指摘してください。</p>
+<p>要求図に存在するが、どのユースケースにも関連付けられていない要求。<br>
+ユースケース図に存在するが、どの要求にも関連付けられていないユースケース（もしあれば）。<br>
+要求とユースケース間のリファイン関係の記述の有無。<br>
+検証結果をリスト形式で、該当する要求IDとユースケース名を添えて報告してください。</p>
+<h5 id="ai検証の結果例-1">AI検証の結果例 </h5>
+<p>トレーサビリティ検証結果</p>
+<ol>
+<li>要求図に存在するが、どのユースケースにも関連付けられていない要求<br>
+該当なし<br>
+要求図のR1～R10はすべて、&lt;<refine>&gt;で少なくとも1つのユースケース（UC1～UC10）と関連付けられています。<br>
+STPA安全要求（RQ_SAF_001～RQ_SAF_007）は、ユースケース図のユースケースにsatisfyやtraceで関連付けられています。</refine></li>
+<li>ユースケース図に存在するが、どの要求にも関連付けられていないユースケース<br>
+該当なし（ただしIDの不整合あり）<br>
+ユースケース図（レビュー後）のユースケースはすべて要求図にも存在しますが、ユースケースIDが一部異なっています。<br>
+例：ユースケース図の「お金を投入する」はUC8、要求図ではUC3<br>
+例：ユースケース図の「釣銭_返金を受け取る」はUC9、要求図ではUC4<br>
+例：ユースケース図の「売上金を回収する」はUC3、要求図ではUC5<br>
+ただし、ユースケース名自体は一致しており、すべてのユースケースが何らかの要求に対応しています。</li>
+<li>要求とユースケース間のリファイン関係の記述の有無<br>
+すべての要求（R1～R10）に対して、&lt;<refine>&gt;でユースケースとの関係が明記されています。<br>
+STPA安全要求（RQ_SAF_001～RQ_SAF_007）についても、&lt;<satisfy>&gt;や&lt;<trace>&gt;でユースケースや要求と関連付けられています。<br>
+【まとめ】<br>
+要求図のR1～R10は、すべてユースケース図のユースケース（UC1～UC10）とリファイン関係が記述されています。<br>
+ユースケース図のユースケースも、すべて要求図の要求に対応しています。<br>
+IDの割り当て（UC番号）が図間で異なっているため、IDの一貫性を保つためには統一を推奨します。<br>
+リファイン関係の記述はすべての要求で明記されています。<br>
+現状、要求とユースケース間のトレーサビリティは十分に確保されていますが、IDの表記揺れ（UC番号の不一致）に注意してください。</trace></satisfy></refine></li>
+</ol>
+<hr>
+<h4 id="3-図間整合性チェック-ユースケース記述内のフローとアクティビティ図ユースケース">3. 図間整合性チェック: ユースケース記述内のフローとアクティビティ図（ユースケース） </h4>
+<h5 id="プロンプト-2">プロンプト: </h5>
+<p>「以下のユースケース記述（テキスト形式）と、それに対応するPlantUMLで記述されたアクティビティ図（ユースケース）を入力とします。<br>
+ユースケース記述内の各フロー（基本フロー、代替フロー、例外フロー）のステップが、対応するアクティビティ図のアクション、デシジョン、フォーク、ジョインなどの各要素と論理的に整合しているかを確認してください。<br>
+以下の不整合パターンを検出・報告してください。</p>
+<p>ユースケース記述のステップがアクティビティ図に存在しない。<br>
+アクティビティ図の要素がユースケース記述に対応するステップを持たない。<br>
+ステップの順序や条件分岐が記述と図で矛盾している。<br>
+不整合箇所について、該当するユースケース記述のフローID（例：BF-1）とアクティビティ図上の要素名を具体的に指摘してください。</p>
+<h5 id="ai検証の結果例-2">AI検証の結果例 </h5>
+<p>ユースケース記述とアクティビティ図の整合性チェック</p>
+<ol>
+<li>ユースケース記述の各フローとアクティビティ図の対応<br>
+BF-1（現金・キャッシュレスで支払い操作）</li>
+</ol>
+<p>アクティビティ図：「現金またはキャッシュレス手段でお金を投入する」<br>
+→ 対応あり<br>
+BF-2（投入金額を認識し、合計投入金額を表示）</p>
+<p>アクティビティ図：「投入された金額を確認」「合計投入金額を表示」<br>
+→ 対応あり<br>
+BF-3（購入可能な商品ボタン点灯/選択可、金額不足商品は消灯/選択不可）</p>
+<p>アクティビティ図：「購入可能な商品ボタン点灯・選択不可商品は消灯」<br>
+→ 対応あり<br>
+BF-4（投入継続 or 商品選択へ遷移）</p>
+<p>アクティビティ図：「さらにお金を投入するか商品選択へ進む」<br>
+→ 対応あり<br>
+AF-1（キャンセルや無操作時の返却）</p>
+<p>アクティビティ図：明示的な「キャンセル」や「無操作」分岐は図上に直接表現されていないが、「必要に応じ再投入またはキャンセルを検討」として記載あり<br>
+→ ほぼ対応（ただしキャンセル動作の明示的なアクションは図上にない）<br>
+EF-1（受け入れ不可・不正操作・読み取りエラー時の返却）</p>
+<p>アクティビティ図：「エラー（受取不可・認識失敗等）を表示し投入物を返却」「エラー内容通知・お金返却を通知」<br>
+→ 対応あり<br>
+EF-2（金額認識不能時の返却・エラー表示）</p>
+<p>アクティビティ図：「エラー（受取不可・認識失敗等）を表示し投入物を返却」<br>
+→ 対応あり<br>
+2. アクティビティ図の要素でユースケース記述にないもの<br>
+「自動販売機の前に立つ」「待機状態になる」<br>
+→ ユースケース記述の事前条件（「自動販売機が稼働中であること」）に相当。<br>
+→ 大きな不整合なし<br>
+3. 順序・条件分岐の矛盾<br>
+「金額認識可？」の分岐は、BF-2/EF-2の条件分岐と一致。<br>
+「通知が投入金額と選択可能商品の場合」→「さらにお金を投入するか商品選択へ進む」はBF-4と一致。<br>
+「エラーやお金返却通知」→「返却されたお金やエラー内容を確認」→「必要に応じ再投入またはキャンセルを検討」はEF-1/EF-2/AF-1の流れと概ね一致。<br>
+【不整合箇所の指摘】<br>
+AF-1（キャンセルや無操作時の返却）<br>
+ユースケース記述には「キャンセルボタンを押す、または一定時間無操作の場合」の明示的な代替フロー（AF-1-1～AF-1-3）があるが、アクティビティ図には「キャンセル」や「無操作」から直接「返却」へ至る明確なアクションがない。<br>
+該当箇所：AF-1-1, AF-1-2, AF-1-3／アクティビティ図「必要に応じ再投入またはキャンセルを検討」<br>
+【まとめ】<br>
+基本フロー・例外フローはアクティビティ図とほぼ対応しており、順序や条件分岐も概ね一致しています。<br>
+唯一、**キャンセルや無操作時の返却（AF-1）**について、アクティビティ図での明示的なアクションが不足しています。<br>
+→ 必要に応じて「キャンセル」や「無操作」から「返却」へのアクションを図に追加すると、より一貫性が高まります。<br>
+その他の大きな不整合は見当たりません。</p>
+<hr>
+<h4 id="4-図間整合性チェック-ステートマシン図と関連ドキュメント">4. 図間整合性チェック: ステートマシン図と関連ドキュメント </h4>
+<h5 id="プロンプト-3">プロンプト: </h5>
+<p>「以下のPlantUMLで記述されたステートマシン図、および関連するユースケース記述（テキスト）、アクティビティ図（機能）を入力とします。<br>
+ステートマシン図で定義された各状態（state）、イベント（event）、および遷移（transition）が、関連するユースケース記述内のフローや、アクティビティ図（機能）で示される処理内容と矛盾なく対応しているか検証してください。<br>
+特に以下の点を確認してください。</p>
+<p>ステートマシン図の状態名やイベント名が、ユースケース記述やアクティビティ図（機能）で使用される用語と整合しているか。<br>
+ユースケースの特定の処理が、ステートマシン図の特定状態での振る舞い（do activityなど）や遷移として表現されているか。<br>
+アクティビティ図（機能）で示されるイベントやアクションが、ステートマシン図のイベントや状態遷移と対応が取れているか。<br>
+矛盾、または対応関係が不明確な箇所を指摘し、その理由を説明してください。</p>
+<h5 id="ai検証の結果例-3">AI検証の結果例 </h5>
+<p>ステートマシン図・ユースケース記述・アクティビティ図（機能）の整合性チェック</p>
+<ol>
+<li>ステートマシン図「故障中」<br>
+状態名</li>
+</ol>
+<p>「故障中」「停止理由表示」「投入金返却」<br>
+イベント・遷移</p>
+<p>[*] → c3（choice分岐）<br>
+c3 → 停止理由表示 : [お金投入なし]<br>
+c3 → 投入金返却 : [お金投入あり]<br>
+投入金返却 → 停止理由表示<br>
+do activity/exit</p>
+<p>停止理由表示 : do/停止理由を表示する<br>
+投入金返却 : exit/投入金または釣銭を返金する<br>
+2. 関連ユースケース記述・アクティビティ図（機能）<br>
+ユースケース記述</p>
+<p>例：「お金を投入する」「釣銭・返金を受け取る」「商品を選択し購入する」などで「取引キャンセル時」「故障時」「返金」などのフローが記載されている。<br>
+例外フローや代替フローで「投入金返却」「釣銭返却」「エラー時の返金」などが明記されている。<br>
+アクティビティ図（機能）</p>
+<p>「投入金または釣銭を返金する.wsd」<br>
+取引終了時に釣銭や返金が必要か判断し、「釣銭・返金排出口に金額を払い出す」「釣銭・返金の払い出しを案内」などのアクションがある。<br>
+「合計投入金額を表示する.wsd」「お金投入を監視する.wsd」なども、投入金の管理や返金処理の流れを記述。<br>
+3. 整合性・対応関係<br>
+状態名・イベント名の用語整合性</p>
+<p>「故障中」「停止理由表示」「投入金返却」などの状態名は、ユースケース記述やアクティビティ図でも同様の意味・用語で使われている（例：「返金」「返却」「エラー表示」など）。<br>
+「投入金返却 : exit/投入金または釣銭を返金する」は、アクティビティ図「投入金または釣銭を返金する」と直接対応。<br>
+ユースケースの処理とステートマシン図の振る舞い対応</p>
+<p>故障発生時に「お金投入あり」なら「投入金返却」→「停止理由表示」へ遷移する流れは、ユースケース記述の「故障時の返金」や「例外フロー（EF）」と一致。<br>
+「停止理由表示 : do/停止理由を表示する」も、ユースケース記述の「エラー内容通知」や「アクティビティ図のエラー表示」と整合。<br>
+アクティビティ図のイベント・アクションと状態遷移の対応</p>
+<p>「投入金または釣銭を返金する」アクティビティ図は、ステートマシン図の「投入金返却」状態のexitアクションと一致。<br>
+「エラー時の返金」「返金案内表示」なども、状態遷移の条件やdo activityと矛盾なし。<br>
+4. 対応が不明確・矛盾のある箇所<br>
+「c3」choiceの分岐条件</p>
+<p>ステートマシン図の「[お金投入あり]/[お金投入なし]」の判定ロジックが、ユースケース記述やアクティビティ図で明示的に「故障時にお金が投入されているかどうかで返金処理が分岐する」と説明されているかはやや曖昧。<br>
+→ ただし、ユースケース記述の例外フローやアクティビティ図の分岐で「投入金がある場合は返金」と記載されていれば、実質的に対応しているとみなせる。<br>
+「停止理由表示」の内容</p>
+<p>ステートマシン図では「do/停止理由を表示する」となっているが、ユースケース記述やアクティビティ図で「停止理由の具体的な表示内容」まで明記されているかは要確認。<br>
+→ もし「エラー内容通知」や「停止理由表示」が抽象的なままなら、より具体的な説明を加えると良い。<br>
+【まとめ】<br>
+主な状態名・イベント名・アクションは、ユースケース記述・アクティビティ図と整合しています。<br>
+返金処理やエラー表示などの流れも、各成果物間で矛盾なく対応しています。<br>
+choice分岐の条件や「停止理由表示」の具体性については、ユースケース記述やアクティビティ図での説明が抽象的な場合は、より明確化すると一貫性が高まります。<br>
+大きな矛盾や対応不明な箇所はありませんが、分岐条件や表示内容の具体性をドキュメント間で揃えると、さらに品質が向上します。</p>
+<hr>
+<h4 id="5-図間整合性チェック-システム構成図とシーケンス図">5. 図間整合性チェック: システム構成図とシーケンス図 </h4>
+<h5 id="プロンプト-4">プロンプト: </h5>
+<p>「以下のPlantUMLで記述されたシステム構成図とシーケンス図を入力とします。<br>
+システム構成図で定義されたコンポーネント（component、nodeなど）と、シーケンス図のライフライン（participant、actor）が名称および役割において一致しているか検証してください。<br>
+また、シーケンス図のライフラインとして登場する要素が、システム構成図にコンポーネントとして定義されているかを確認してください。</p>
+<p>さらに、シーケンス図でコンポーネント間で送受信されるメッセージが、システム構成図で示唆されるコンポーネント間のインターフェース（明示的なinterface定義や、関連線など）と整合しているか（または矛盾しないか）を確認してください。<br>
+例えば、システム構成図上で接続が定義されていないコンポーネント間で、シーケンス図において直接メッセージがやり取りされているケースがないかなどを確認してください。</p>
+<p>検出された不整合箇所（例：「シーケンス図のライフライン『決済ゲートウェイ』はシステム構成図に未定義」や「コンポーネントAからコンポーネントBへのメッセージ『データ送信』は構成図上のインターフェースと不整合」など）とその理由を報告してください。</p>
+<h5 id="ai検証の結果例-4">AI検証の結果例 </h5>
+<p>システム構成図とシーケンス図の整合性チェック</p>
+<ol>
+<li>コンポーネント／ライフラインの名称・役割の一致<br>
+システム構成図のコンポーネント（クラス）</li>
+</ol>
+<p>自動販売機<br>
+商品ラック<br>
+表示パネル<br>
+投入金口<br>
+釣銭機<br>
+操作パネル<br>
+商品取り出し口<br>
+（他：決済システム、在庫管理システム、売上管理システム、監視システム）<br>
+シーケンス図のライフライン</p>
+<p>利用者（actor）<br>
+自動販売機（collections）<br>
+表示パネル<br>
+商品ラック<br>
+釣銭機<br>
+投入金口<br>
+操作パネル<br>
+商品取り出し口<br>
+一致状況</p>
+<p>シーケンス図のライフラインは、システム構成図のコンポーネント名とほぼ一致しています。<br>
+「利用者」はアクターとして両図に存在。<br>
+「自動販売機」はシステム全体として両図に存在。<br>
+「collections 自動販売機」はPlantUMLのコレクション表現ですが、意味的には「自動販売機」本体と一致。<br>
+シーケンス図のすべてのライフライン（表示パネル、商品ラック、釣銭機、投入金口、操作パネル、商品取り出し口）は、システム構成図のコンポーネントとして定義されています。<br>
+2. シーケンス図のライフラインがシステム構成図に未定義か<br>
+未定義のライフライン<br>
+シーケンス図に登場する全てのライフラインは、システム構成図に定義されています。<br>
+不整合なし<br>
+3. メッセージとインターフェースの整合性<br>
+シーケンス図の主なメッセージ例</p>
+<p>表示パネル → 商品ラック : 商品の在庫_情報を取得()<br>
+表示パネル → 釣銭機 : 現在の釣銭残量を取得する()<br>
+投入金口 → 表示パネル : 合計投入金額を表示()<br>
+投入金口 → 操作パネル : 商品選択待ち<br>
+操作パネル → 商品ラック : 商品を払い出す()<br>
+商品ラック → 商品取り出し口 : 商品を受け取る()<br>
+投入金口 → 釣銭機 : 釣銭の確認<br>
+釣銭機 → 表示パネル : 釣銭・返金の払い出しを案内()<br>
+釣銭機 → 利用者 : 釣銭<br>
+システム構成図の関連線・インターフェース</p>
+<p>自動販売機本体の内部に各コンポーネントが含まれており、明示的なinterface定義はないが、各コンポーネント間の連携は想定されている。<br>
+システム構成図上で「表示パネル」「商品ラック」「釣銭機」「投入金口」「操作パネル」「商品取り出し口」は同一システム内で相互に連携可能な設計意図。<br>
+不整合の有無</p>
+<p>シーケンス図でやり取りされているメッセージは、システム構成図で示唆される「自動販売機」内部のコンポーネント間連携として妥当。<br>
+システム構成図で接続が明示されていない外部システム（例：決済システム、在庫管理システム等）との直接的なやり取りはシーケンス図には登場しない。<br>
+不整合なし<br>
+【検出された不整合箇所】<br>
+該当なし<br>
+シーケンス図のライフラインはすべてシステム構成図に定義されている。<br>
+メッセージのやり取りも、システム構成図の設計意図（自動販売機内部のコンポーネント間連携）と矛盾しない。<br>
+【まとめ】<br>
+システム構成図とシーケンス図の間で、コンポーネント名・役割・インターフェースに関する不整合は検出されませんでした。<br>
+両図は名称・構造・連携の観点で整合しています。</p>
+<hr>
+<h4 id="網羅性チェック用プロンプト">網羅性チェック用プロンプト </h4>
+<h4 id="1-要求カバレッジ">1. 要求カバレッジ </h4>
+<h5 id="プロンプト-5">プロンプト: </h5>
+<p>「以下のPlantUMLで記述された要求図とユースケース図を入力とします。<br>
+要求図に記載された全てのシステム要求が、ユースケース図の少なくとも一つのユースケースによってカバー（関連付けられている、実現されているなど）されているかを検証してください。</p>
+<p>以下の点を具体的に指摘してください。</p>
+<p>どのユースケースにもカバーされていない要求ID。<br>
+検証結果をリスト形式で、該当する要求IDとその内容を添えて報告してください。</p>
+<h4 id="2-フローカバレッジ">2. フローカバレッジ </h4>
+<h5 id="プロンプト-6">プロンプト: </h5>
+<p>「以下のユースケース記述（テキスト形式）と、それに対応するPlantUMLで記述されたアクティビティ図（ユースケース）を入力とします。<br>
+各ユースケース記述で定義された全てのフロー（特に基本フロー、代替フロー、例外フローの各ステップ）が、対応するアクティビティ図で適切に表現されているか、また、考慮漏れがないかを検証してください。</p>
+<p>以下の点を具体的に指摘してください。</p>
+<p>ユースケース記述に存在するフローのステップが、アクティビティ図に表現されていない箇所。<br>
+アクティビティ図には存在するが、ユースケース記述に対応するフローのステップが見当たらない箇所（意図的な詳細化である可能性も考慮）。<br>
+特に、例外フローや代替フローがアクティビティ図で網羅的に表現されているか。<br>
+不整合箇所または考慮漏れの可能性がある箇所について、該当するユースケース記述のフローID（例：EF-1-1）とアクティビティ図上の関連要素名を具体的に指摘し、その理由を説明してください。</p>
+<h4 id="3-状態遷移カバレッジ">3. 状態・遷移カバレッジ </h4>
+<h5 id="プロンプト-7">プロンプト: </h5>
+<p>「以下のPlantUMLで記述されたステートマシン図を入力とします。<br>
+定義された全ての状態（state）が到達可能であるか、また、予期せぬデッドロック（どのイベントが発生しても他の状態に遷移できない状態）や意図しない状態遷移（ループや予期せぬパスなど）が存在しないかを静的に解析してください。</p>
+<p>以下の点を具体的に指摘してください。</p>
+<p>初期状態から到達不可能な状態。<br>
+遷移がなく、かつ終了状態でもないためデッドロックとなる可能性のある状態。<br>
+特定のイベントシーケンスによって発生しうる意図しないループや遷移パターン。<br>
+解析結果と、問題が検出された場合は該当する状態名や遷移を具体的に報告してください。</p>
+<h4 id="4-リスク対応カバレッジ">4. リスク対応カバレッジ </h4>
+<h5 id="プロンプト-8">プロンプト: </h5>
+<p>「以下のFMEA分析結果（テキストまたは表形式）、FTA分析結果（テキストまたは表形式）、および関連する設計ドキュメント（ユースケース記述の例外フロー部分、ステートマシン図の故障処理関連部分のPlantUMLコード）を入力とします。<br>
+FMEA分析やFTA分析で特定された各リスクや故障モードに対し、対応する処理（例：ユースケースの例外フロー、ステートマシン図の故障処理状態や遷移など）が設計に具体的に盛り込まれているかを検証してください。</p>
+<p>以下の点を具体的に指摘してください。</p>
+<p>特定されたリスクや故障モードに対して、設計ドキュメントに対応策が見当たらないもの。<br>
+対応策が記述されてはいるが、その内容がリスクを軽減する上で不十分または不明確である可能性のあるもの。<br>
+検証結果として、各リスク/故障モードと、それに対応する設計上の処理（該当するユースケースIDとフローID、またはステートマシン図の状態/遷移名など）のトレーサビリティを示し、対応が不足している、または不明確なリスク/故障モードをリストアップしてください。</p>
+<hr>
+<h4 id="シミュレーションベースの検証用プロンプト">シミュレーションベースの検証用プロンプト </h4>
+<h4 id="1-シーケンス図の妥当性検証-シナリオ生成とシミュレーション実行">1. シーケンス図の妥当性検証 (シナリオ生成とシミュレーション実行) </h4>
+<h5 id="プロンプト-9">プロンプト: </h5>
+<p>「以下のPlantUMLで記述されたシステム構成図、ユースケース記述（正常系および異常系のフローを含む）、および既存のシーケンス図（またはそのテンプレート）を入力とします。</p>
+<p>指示1：ユースケースシナリオ生成<br>
+提供されたユースケース記述に基づき、以下の観点を含む複数の具体的なユースケースシナリオ（正常系および異常系、それぞれ最低3パターンずつ）を生成してください。各シナリオは、利用者や外部システムからの具体的な操作シーケンスとして記述してください。</p>
+<ul>
+<li>正常系例：特定の商品を現金で購入し、お釣りを受け取る。</li>
+<li>異常系例：投入金額不足で購入失敗、商品選択後に在庫切れが判明、釣銭切れで取引中断。</li>
+</ul>
+<p>指示2：シーケンス図シミュレーション<br>
+生成した各ユースケースシナリオについて、システム構成図のコンポーネント間のインタラクションをシミュレートし、シーケンス図を生成または検証してください。<br>
+シミュレーションは、現在の記述「AIでpythonコードを自動生成し、人手による修正を加えたpythonコードの実行結果です」  のアプローチを拡張し、各ステップでのコンポーネント間のメッセージのやり取り、状態変化、期待される応答を予測・記録してください。</p>
+<p>指示3：期待結果との照合と妥当性検証<br>
+各シナリオのシミュレーション結果（生成されたシーケンス図や記録されたインタラクション）が、ユースケース記述から導かれる期待される結果（例：商品が正しく払い出される、エラーメッセージが表示されるなど）と一致するかを照合してください。<br>
+期待結果と異なる動作や、予期せぬインタラクションが発生した場合は、その箇所と理由を具体的に報告し、シーケンス図の動的な振る舞いの妥当性について評価してください。</p>
+<h4 id="2-ステートマシン図の動的検証-イベントシーケンス生成と動的解析">2. ステートマシン図の動的検証 (イベントシーケンス生成と動的解析) </h4>
+<h4 id="プロンプト-10">プロンプト: </h4>
+<p>「以下のPlantUMLで記述されたステートマシン図を入力とします。</p>
+<p>指示1：イベントシーケンス生成<br>
+ステートマシン図で定義されているイベントに基づき、システムの振る舞いをテストするための多様なイベントシーケンスを生成してください。シーケンスには、正常な操作フローをカバーするものだけでなく、予期せぬ順序やタイミングでのイベント発生、エラーを引き起こしうるイベントの組み合わせも意図的に含めてください（最低10パターン）。</p>
+<p>指示2：ステートマシンモデルへの入力と状態遷移パスの探索<br>
+生成した各イベントシーケンスをステートマシンモデルに入力し、それによって引き起こされる状態遷移のパスを探索・記録してください。</p>
+<p>指示3：動的検証と問題検出<br>
+記録された状態遷移パスを分析し、以下の問題が発生しないかを動的に検証してください。</p>
+<ul>
+<li>デッドロック（どのイベントにも応答せず、進行不能になる状態）。</li>
+<li>ライブロック（状態遷移は繰り返すが、実質的な処理が進まない状態）。</li>
+<li>特定の制約違反（例：設計上許容されない不正な状態遷移、特定の状態に到達すべきでない条件下での到達など）。</li>
+<li>到達すべき重要な状態に到達できないパスの存在。</li>
+</ul>
+<p>期待される出力:</p>
+<p>生成されたイベントシーケンスのリスト。<br>
+各イベントシーケンスに対応する状態遷移パスの記録。<br>
+デッドロック、ライブロック、制約違反、またはその他の問題が検出された場合、そのイベントシーケンス、問題が発生した状態または遷移、および問題の詳細な説明。問題が検出されなかった場合はその旨を報告してください。</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
