@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="SHIFT_JIS" standalone="no" ?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2025/06/16 15:18:27">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+			<XMI.exporterID>1628</XMI.exporterID>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="要求図" xmi.id="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_E767181A_F1E8_4875_88D4_1714FC64B1ED"/>
+						<UML:TaggedValue tag="created" value="2025/06/03 16:55:42"/>
+						<UML:TaggedValue tag="modified" value="2025/06/03 16:55:42"/>
+						<UML:TaggedValue tag="iscontrolled" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="0"/>
+						<UML:TaggedValue tag="usedtd" value="0"/>
+						<UML:TaggedValue tag="logxml" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="設計中"/>
+						<UML:TaggedValue tag="author" value="masaki-kato"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="販売商品を変更できること" xmi.id="EAID_17B1A4C6_D668_4a14_AA72_F8DF58875F05" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 17:00:18"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:25:55"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="28"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F2E30B43-7AF8-402f-AC06-89F54A739EE3}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={17B1A4C6-D668-4a14-AA72-F8DF58875F05}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="売上金を安全に回収できること" xmi.id="EAID_2C60539B_1E32_4700_AF96_EFBCAD95691D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:59:35"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:25:31"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="25"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CB54BD12-94F0-4641-B9F0-8AA9EA825F91}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={2C60539B-1E32-4700-AF96-EFBCAD95691D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="故障時に対応・復旧できること" xmi.id="EAID_48EE4DE0_FF3E_4aed_B8A3_79005D8F5B82" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 17:00:49"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:26:08"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="30"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D96167BD-C5BC-4279-9421-05973ACEA17D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={48EE4DE0-FF3E-4aed-B8A3-79005D8F5B82}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="商品を購入するための利用者要求" xmi.id="EAID_4D03DF61_7733_442f_8246_C8DEE8760856" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:57:44"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:24:35"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="18"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={225EA045-80DD-4e8c-9B40-A31122627CD5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={4D03DF61-7733-442f-8246-C8DEE8760856}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="自動販売機システムの基本要求" xmi.id="EAID_4F0F8B7B_09E2_416e_AFE4_FDB48FA22DB2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 17:17:49"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:27:10"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="31"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9A44DA54-C75D-4977-8576-57868A1162DB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={4F0F8B7B-09E2-416e-AFE4-FDB48FA22DB2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="機器の状態を確認できること" xmi.id="EAID_5598FA84_BE0E_4f12_AD37_1E4CFF316F0A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 17:00:33"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:26:01"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="29"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={918C2369-C14D-4bdd-858F-234DA01B8268}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={5598FA84-BE0E-4f12-AD37-1E4CFF316F0A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="安全かつ効率的な運用管理要求" xmi.id="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:58:12"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:24:40"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="19"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={391C7722-238A-40ae-A96B-97ECB5DA4AB2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={5AE6FB85-1EB1-4d40-BD09-27DD85D83050}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="メンテナンス対応要求" xmi.id="EAID_68DDE530_02AD_4dc1_BC3D_A22524627683" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:58:26"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:24:44"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="20"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={079439DC-D791-4ba8-8C57-97321988D2A2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={68DDE530-02AD-4dc1-BC3D-A22524627683}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="商品を選択して購入できること" xmi.id="EAID_70CD20EB_B744_48d5_8692_C202C29FB80C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:59:01"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:24:57"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="22"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={04007C35-35C0-4a45-BE00-E3D0757DE5C2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={70CD20EB-B744-48d5-8692-C202C29FB80C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="正確に釣銭・返金を受け取れること" xmi.id="EAID_8B4AFEB8_3D76_4a39_BFB4_941E70E9FEE0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:59:23"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:25:23"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="24"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2971B47F-C7BF-448f-8AF6-C8641B9DEBB8}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={8B4AFEB8-3D76-4a39-BFB4-941E70E9FEE0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="支払い手段を選択できること" xmi.id="EAID_97AC88AC_D0A9_4485_93A6_1DF8542A61D8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:58:47"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:24:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="21"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={27000897-335C-4b69-8B6D-BAB1D001712A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={97AC88AC-D0A9-4485-93A6-1DF8542A61D8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="商品を補充したい" xmi.id="EAID_A8D07BF6_B9E5_445b_AB61_606A7BD40755" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:59:48"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 16:59:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="26"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={30CEE0BA-1A6E-4530-8EED-D87B9C19F337}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={A8D07BF6-B9E5-445b-AB61-606A7BD40755}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="商品を補充できること" xmi.id="EAID_CEF9559A_47D9_44e8_9E00_D656596CC6B1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 17:00:01"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:25:41"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="27"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8CBB18BA-C6F2-4a02-B240-1D75B1953CDA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={CEF9559A-47D9-44e8-9E00-D656596CC6B1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="商品の購入可否を確認できること" xmi.id="EAID_FF09F52E_C540_4de7_95F3_089E082E80AE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="requirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+										<UML:TaggedValue tag="date_created" value="2025/06/03 16:59:13"/>
+										<UML:TaggedValue tag="date_modified" value="2025/06/03 17:25:16"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="要求図"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="masaki-kato"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="設計中"/>
+										<UML:TaggedValue tag="stereotype" value="requirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="23"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="普通"/>
+										<UML:TaggedValue tag="priority" value="普通"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={69D61E16-C4CD-4a67-A878-5AE89101268D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=requirement;FQName=SysML1.4::requirement;@ENDSTEREO;$DES;$CLT={FF09F52E-C540-4de7-95F3-089E082E80AE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Dependency xmi.id="EAID_46B2C93F_818E_4fd0_AE94_837202605023" visibility="public" client="EAID_C5EA065D_EEA7_4091_8C6C_3E2E95B1DE87" supplier="EAID_17B1A4C6_D668_4a14_AA72_F8DF58875F05">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="32"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC8 販売商品を変更する"/>
+								<UML:TaggedValue tag="ea_targetName" value="販売商品を変更できること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="14"/>
+								<UML:TaggedValue tag="ea_targetID" value="28"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3A74DE3B-4D2A-4de5-89B6-1554B67E65B0}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={46B2C93F-818E-4fd0-AE94-837202605023}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_ACC9_A8ED4B6EEA9A"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_B2D3_63726737A304"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_9726_BD450B6B0B75"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_B4D3_83E85A238A58"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_CE56D456_04A3_468c_9095_4022A6DE62E8" visibility="public" client="EAID_17B1A4C6_D668_4a14_AA72_F8DF58875F05" supplier="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="45"/>
+								<UML:TaggedValue tag="ea_sourceName" value="販売商品を変更できること"/>
+								<UML:TaggedValue tag="ea_targetName" value="安全かつ効率的な運用管理要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="28"/>
+								<UML:TaggedValue tag="ea_targetID" value="19"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EC1102DE-E009-4b4e-A977-EFD09A978C80}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={CE56D456-04A3-468c-9095-4022A6DE62E8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_26A75CA5_9D80_46f5_8651_CA1085080919" visibility="public" client="EAID_2C60539B_1E32_4700_AF96_EFBCAD95691D" supplier="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="42"/>
+								<UML:TaggedValue tag="ea_sourceName" value="売上金を安全に回収できること"/>
+								<UML:TaggedValue tag="ea_targetName" value="安全かつ効率的な運用管理要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="25"/>
+								<UML:TaggedValue tag="ea_targetID" value="19"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={79572E56-F8AF-42bb-8F56-569128B9A8CA}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={26A75CA5-9D80-46f5-8651-CA1085080919}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_C75440BF_D9EF_4328_BA6B_43ACD18D21CD" visibility="public" client="EAID_1F959F7F_4B73_4e8b_B352_01BA291D8133" supplier="EAID_2C60539B_1E32_4700_AF96_EFBCAD95691D">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="28"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC5 売上金を回収する"/>
+								<UML:TaggedValue tag="ea_targetName" value="売上金を安全に回収できること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="11"/>
+								<UML:TaggedValue tag="ea_targetID" value="25"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={34F0EF89-50BA-42ca-B3F5-0D51A742D916}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={C75440BF-D9EF-4328-BA6B-43ACD18D21CD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_9151_E9AFE5995F1E"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_8E6E_0A497DECF615"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_80B5_C7304301A52B"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_9996_DD56E87BC0A4"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_36DF6A2D_AC53_4185_8EC5_D369C8EC0BCE" visibility="public" client="EAID_A89D403D_519D_4b6d_9868_B8A6681248B1" supplier="EAID_48EE4DE0_FF3E_4aed_B8A3_79005D8F5B82">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="33"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC9 故障対応を行う"/>
+								<UML:TaggedValue tag="ea_targetName" value="故障時に対応・復旧できること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="16"/>
+								<UML:TaggedValue tag="ea_targetID" value="30"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0FB9FBF4-B859-460f-8DDE-0379F2BF4E03}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={36DF6A2D-AC53-4185-8EC5-D369C8EC0BCE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_B56C_FDAB03D316E0"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_B14C_A5DFC4B8877F"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_8FE0_A81B9A1F7A03"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_ABBE_761948101DED"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_BA450097_A19A_46c6_8520_24B1733C38B6" visibility="public" client="EAID_48EE4DE0_FF3E_4aed_B8A3_79005D8F5B82" supplier="EAID_68DDE530_02AD_4dc1_BC3D_A22524627683">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="47"/>
+								<UML:TaggedValue tag="ea_sourceName" value="故障時に対応・復旧できること"/>
+								<UML:TaggedValue tag="ea_targetName" value="メンテナンス対応要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="30"/>
+								<UML:TaggedValue tag="ea_targetID" value="20"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D5B951B9-7CD4-46e3-98F9-9E89C125444A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={BA450097-A19A-46c6-8520-24B1733C38B6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Association xmi.id="EAID_2B642B34_537F_4222_9AA4_F1D75C1941C7" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Nesting"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="35"/>
+								<UML:TaggedValue tag="ea_sourceName" value="商品を購入するための利用者要求"/>
+								<UML:TaggedValue tag="ea_targetName" value="自動販売機システムの基本要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="18"/>
+								<UML:TaggedValue tag="ea_targetID" value="31"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_4D03DF61_7733_442f_8246_C8DEE8760856">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_4F0F8B7B_09E2_416e_AFE4_FDB48FA22DB2">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Dependency xmi.id="EAID_467D5EB7_C104_4188_A491_4517E09980DD" visibility="public" client="EAID_97AC88AC_D0A9_4485_93A6_1DF8542A61D8" supplier="EAID_4D03DF61_7733_442f_8246_C8DEE8760856">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="38"/>
+								<UML:TaggedValue tag="ea_sourceName" value="支払い手段を選択できること"/>
+								<UML:TaggedValue tag="ea_targetName" value="商品を購入するための利用者要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="21"/>
+								<UML:TaggedValue tag="ea_targetID" value="18"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={44A1FB33-286C-42f1-9308-71492AC6C552}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={467D5EB7-C104-4188-A491-4517E09980DD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_6B23B0B0_A56E_4297_9C3C_99347EF58B88" visibility="public" client="EAID_70CD20EB_B744_48d5_8692_C202C29FB80C" supplier="EAID_4D03DF61_7733_442f_8246_C8DEE8760856">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="39"/>
+								<UML:TaggedValue tag="ea_sourceName" value="商品を選択して購入できること"/>
+								<UML:TaggedValue tag="ea_targetName" value="商品を購入するための利用者要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="22"/>
+								<UML:TaggedValue tag="ea_targetID" value="18"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C5E9235B-3B62-43de-AFE8-B8D142696268}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={6B23B0B0-A56E-4297-9C3C-99347EF58B88}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_85EE757A_B2A9_4985_8BE6_EB96CAE1CD78" visibility="public" client="EAID_FF09F52E_C540_4de7_95F3_089E082E80AE" supplier="EAID_4D03DF61_7733_442f_8246_C8DEE8760856">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="40"/>
+								<UML:TaggedValue tag="ea_sourceName" value="商品の購入可否を確認できること"/>
+								<UML:TaggedValue tag="ea_targetName" value="商品を購入するための利用者要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="23"/>
+								<UML:TaggedValue tag="ea_targetID" value="18"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0C1B3B3B-B66E-48f0-AFF0-AE44E3CF71C0}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={85EE757A-B2A9-4985-8BE6-EB96CAE1CD78}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_89559DAB_7993_4d40_A50F_269F6ADC470A" visibility="public" client="EAID_8B4AFEB8_3D76_4a39_BFB4_941E70E9FEE0" supplier="EAID_4D03DF61_7733_442f_8246_C8DEE8760856">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="41"/>
+								<UML:TaggedValue tag="ea_sourceName" value="正確に釣銭・返金を受け取れること"/>
+								<UML:TaggedValue tag="ea_targetName" value="商品を購入するための利用者要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="24"/>
+								<UML:TaggedValue tag="ea_targetID" value="18"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CCBB7AD2-E254-4d29-8877-86CAF2BA0621}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={89559DAB-7993-4d40-A50F-269F6ADC470A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Association xmi.id="EAID_2C0093F8_1835_4bb4_B1A5_01C6330AFE8F" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Nesting"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="37"/>
+								<UML:TaggedValue tag="ea_sourceName" value="メンテナンス対応要求"/>
+								<UML:TaggedValue tag="ea_targetName" value="自動販売機システムの基本要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="20"/>
+								<UML:TaggedValue tag="ea_targetID" value="31"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_68DDE530_02AD_4dc1_BC3D_A22524627683">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_4F0F8B7B_09E2_416e_AFE4_FDB48FA22DB2">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Association xmi.id="EAID_BF0684EC_F203_45ad_93E1_67FD9E88F827" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Nesting"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="36"/>
+								<UML:TaggedValue tag="ea_sourceName" value="安全かつ効率的な運用管理要求"/>
+								<UML:TaggedValue tag="ea_targetName" value="自動販売機システムの基本要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="19"/>
+								<UML:TaggedValue tag="ea_targetID" value="31"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_4F0F8B7B_09E2_416e_AFE4_FDB48FA22DB2">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Dependency xmi.id="EAID_68018A62_C6B3_4120_A0FA_41A25B264733" visibility="public" client="EAID_5598FA84_BE0E_4f12_AD37_1E4CFF316F0A" supplier="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="46"/>
+								<UML:TaggedValue tag="ea_sourceName" value="機器の状態を確認できること"/>
+								<UML:TaggedValue tag="ea_targetName" value="安全かつ効率的な運用管理要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="29"/>
+								<UML:TaggedValue tag="ea_targetID" value="19"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={35FFDF61-E031-4785-9446-3DFEF49D94A0}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={68018A62-C6B3-4120-A0FA-41A25B264733}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_AE3DB535_9E6D_42ce_A0D1_BD58A9A3C651" visibility="public" client="EAID_5F2E8A29_BA60_48bb_B414_086367A26C4C" supplier="EAID_5598FA84_BE0E_4f12_AD37_1E4CFF316F0A">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="34"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC10 機械の状態を確認する"/>
+								<UML:TaggedValue tag="ea_targetName" value="機器の状態を確認できること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="15"/>
+								<UML:TaggedValue tag="ea_targetID" value="29"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6B62146F-B227-4fee-A2D7-39754BAC2E48}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={AE3DB535-9E6D-42ce-A0D1-BD58A9A3C651}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_A37C_E761293BDA4D"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_9091_724489C6B76E"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_AE58_36DB0F3FCF73"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_AE52_5CCE8167DFB8"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_2BF44D29_394D_420c_A1D9_7F3C4E196734" visibility="public" client="EAID_CEF9559A_47D9_44e8_9E00_D656596CC6B1" supplier="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="44"/>
+								<UML:TaggedValue tag="ea_sourceName" value="商品を補充できること"/>
+								<UML:TaggedValue tag="ea_targetName" value="安全かつ効率的な運用管理要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="27"/>
+								<UML:TaggedValue tag="ea_targetID" value="19"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A0DEF1EE-1972-44d6-BFC6-6EBD4E2BE795}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={2BF44D29-394D-420c-A1D9-7F3C4E196734}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_E93BE085_AEA0_44c3_A958_9A53AAD29DE1" visibility="public" client="EAID_A8D07BF6_B9E5_445b_AB61_606A7BD40755" supplier="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="deriveReqt"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="deriveReqt"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;deriveReqt&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="43"/>
+								<UML:TaggedValue tag="ea_sourceName" value="商品を補充したい"/>
+								<UML:TaggedValue tag="ea_targetName" value="安全かつ効率的な運用管理要求"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="26"/>
+								<UML:TaggedValue tag="ea_targetID" value="19"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={82B02B6A-748F-43f5-BB4C-115F70D7B928}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=deriveReqt;FQName=SysML1.4::deriveReqt;@ENDSTEREO;$DES;$CLT={E93BE085-AEA0-44c3-A958-9A53AAD29DE1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;deriveReqt&#xBB;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_68257484_4FA3_45cf_AE30_A8883D825104" visibility="public" client="EAID_B9ED2053_DD65_415b_9E08_493D6F1AEBED" supplier="EAID_70CD20EB_B744_48d5_8692_C202C29FB80C">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="24"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC2 商品を選択して購入する"/>
+								<UML:TaggedValue tag="ea_targetName" value="商品を選択して購入できること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="10"/>
+								<UML:TaggedValue tag="ea_targetID" value="22"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={807F11A5-2C7B-447d-AB7D-69DB5AC18EBD}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={68257484-4FA3-45cf-AE30-A8883D825104}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_97C4_B3E77F0D885B"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_A855_D5A983F8D9F8"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_B138_F57DFA19239E"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_9C7C_B55B63AFBD48"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_EDC36D85_1038_40b7_9502_86E8531393DD" visibility="public" client="EAID_1005FEA0_C834_402c_9CD4_98540858DFA6" supplier="EAID_8B4AFEB8_3D76_4a39_BFB4_941E70E9FEE0">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="27"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC4 釣銭・返金を受け取る"/>
+								<UML:TaggedValue tag="ea_targetName" value="正確に釣銭・返金を受け取れること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="8"/>
+								<UML:TaggedValue tag="ea_targetID" value="24"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={942D8E16-127D-4471-8826-DA004E415572}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={EDC36D85-1038-40b7-9502-86E8531393DD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_B387_65439164D728"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_A2D8_6D1D42BB1FA3"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_8B39_F39B30109BC5"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_9061_B5EF14AE69C7"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_7503CE13_C609_457f_8542_A98CA31551B6" visibility="public" client="EAID_0C87C112_A418_4711_A601_B0482392697D" supplier="EAID_97AC88AC_D0A9_4485_93A6_1DF8542A61D8">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="25"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC3 お金を投入する"/>
+								<UML:TaggedValue tag="ea_targetName" value="支払い手段を選択できること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="7"/>
+								<UML:TaggedValue tag="ea_targetID" value="21"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E225C163-9383-497d-8122-F51555F8E67A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={7503CE13-C609-457f-8542-A98CA31551B6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_80CA_872A443132E5"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_B597_45C16CEC767C"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_94AC_FAF57730AA1C"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_8124_9C36D73FD9AA"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_13D321E6_24BA_4d2c_945E_5EEA1CEB2979" visibility="public" client="EAID_6218F77A_B882_409a_844F_8B6F97945AF0" supplier="EAID_A8D07BF6_B9E5_445b_AB61_606A7BD40755">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="30"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC6 商品を補充する"/>
+								<UML:TaggedValue tag="ea_targetName" value="商品を補充したい"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="12"/>
+								<UML:TaggedValue tag="ea_targetID" value="26"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2CE95640-5C8F-4958-B11B-FC4430686B25}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={13D321E6-24BA-4d2c-945E-5EEA1CEB2979}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_8DD8_E05034999E37"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_875A_26853F7CDC4B"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_ACC2_2E7BDE52A24E"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_8257_369D98357829"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_32F644A2_7FAF_4fdc_B9E6_45BE19DFF322" visibility="public" client="EAID_61F1B4D3_DD3F_4bb4_92C3_D63CB4AE3CB9" supplier="EAID_CEF9559A_47D9_44e8_9E00_D656596CC6B1">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="31"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC7 釣銭を補充する"/>
+								<UML:TaggedValue tag="ea_targetName" value="商品を補充できること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="13"/>
+								<UML:TaggedValue tag="ea_targetID" value="27"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6644C696-B756-4fa6-A4B4-19F0DE7B8CD8}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={32F644A2-7FAF-4fdc-B9E6-45BE19DFF322}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_9D7E_7D83833026BA"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_9E6B_7B02B2C1B4AC"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_8C4E_F520E20B40D9"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_A0DE_28978C286112"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency xmi.id="EAID_7E56C517_843D_4df0_9D9C_D8FD58CBC421" visibility="public" client="EAID_D501B921_779F_43fd_988D_B9B37E6F9B0B" supplier="EAID_FF09F52E_C540_4de7_95F3_089E082E80AE">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="refine"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="refine"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="ea_localid" value="26"/>
+								<UML:TaggedValue tag="ea_sourceName" value="UC1 商品一覧を表示する"/>
+								<UML:TaggedValue tag="ea_targetName" value="商品の購入可否を確認できること"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="9"/>
+								<UML:TaggedValue tag="ea_targetID" value="23"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6FA4B38C-F7CB-4317-8AF9-39B1D9384D6A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=refine;FQName=SysML1.4::refine;@ENDSTEREO;$DES;$CLT={7E56C517-843D-4df0-9D9C-D8FD58CBC421}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value="&#xAB;refine&#xBB;"/>
+								<UML:TaggedValue tag="sourcePropertyPath" xmi.id="EAID_3E6B9A63_A19E_92a1_9B25_257DCB22B1E9"/>
+								<UML:TaggedValue tag="targetPropertyPath" xmi.id="EAID_18F83959_4094_1f40_A98E_A51B010E385B"/>
+								<UML:TaggedValue tag="sourceContext" xmi.id="EAID_B31CE6F6_3571_ea35_890F_6D2A93B9B890"/>
+								<UML:TaggedValue tag="targetContext" xmi.id="EAID_5976D42C_22A7_4422_8F0D_0CE3BE9EFDDD"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_9BA1_E11B00F170FD" value="R8" modelElement="EAID_17B1A4C6_D668_4a14_AA72_F8DF58875F05"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_9F8D_7F91D23B5361" value="&lt;memo&gt;#NOTES#販売商品を変更したい" modelElement="EAID_17B1A4C6_D668_4a14_AA72_F8DF58875F05"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_A446_FC44E57AB70F" value="R5" modelElement="EAID_2C60539B_1E32_4700_AF96_EFBCAD95691D"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_ABD4_43C8FB2B7E4D" value="&lt;memo&gt;#NOTES#売上金を安全に回収したい" modelElement="EAID_2C60539B_1E32_4700_AF96_EFBCAD95691D"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_A3D4_F4C81D1D4E2C" value="R10" modelElement="EAID_48EE4DE0_FF3E_4aed_B8A3_79005D8F5B82"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_BFD0_C40D5609DF11" value="&lt;memo&gt;#NOTES#故障時に対応・復旧したい" modelElement="EAID_48EE4DE0_FF3E_4aed_B8A3_79005D8F5B82"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_87E4_3A4961356DD9" value="SR1" modelElement="EAID_4D03DF61_7733_442f_8246_C8DEE8760856"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_B543_022E666DC1EE" value="&lt;memo&gt;#NOTES#利用者が簡単かつ確実に商品を購入できること" modelElement="EAID_4D03DF61_7733_442f_8246_C8DEE8760856"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_827D_BE3160EB8286" value="MR0" modelElement="EAID_4F0F8B7B_09E2_416e_AFE4_FDB48FA22DB2"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_B170_4F74AB5B9AD3" value="&lt;memo&gt;#NOTES#自動販売機システムを開発し、運用可能な状態にすること" modelElement="EAID_4F0F8B7B_09E2_416e_AFE4_FDB48FA22DB2"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_9265_47B33B3DC153" value="R9" modelElement="EAID_5598FA84_BE0E_4f12_AD37_1E4CFF316F0A"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_B853_D9E1A6549A92" value="&lt;memo&gt;#NOTES#機械の状態を確認したい" modelElement="EAID_5598FA84_BE0E_4f12_AD37_1E4CFF316F0A"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_B763_317801659246" value="SR2" modelElement="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_A8E1_FAE8485DF416" value="&lt;memo&gt;#NOTES#管理者が安全かつ効率的に運用管理できること" modelElement="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_8980_2FDB20CA83EB" value="SR3" modelElement="EAID_68DDE530_02AD_4dc1_BC3D_A22524627683"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_8472_761CB715C36D" value="&lt;memo&gt;#NOTES#故障が発生しても迅速に対応できること" modelElement="EAID_68DDE530_02AD_4dc1_BC3D_A22524627683"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_856E_ABC8CA9C40C6" value="R2" modelElement="EAID_70CD20EB_B744_48d5_8692_C202C29FB80C"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_801B_0182AEBE2B52" value="&lt;memo&gt;#NOTES#商品を選んで購入したい" modelElement="EAID_70CD20EB_B744_48d5_8692_C202C29FB80C"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_8D21_2A36F2804E69" value="R4" modelElement="EAID_8B4AFEB8_3D76_4a39_BFB4_941E70E9FEE0"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_BD04_4AF013961DA6" value="&lt;memo&gt;#NOTES#釣銭・返金を正しく受け取りたい" modelElement="EAID_8B4AFEB8_3D76_4a39_BFB4_941E70E9FEE0"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_83BC_C4979C5A78F5" value="R1" modelElement="EAID_97AC88AC_D0A9_4485_93A6_1DF8542A61D8"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_AB55_AFCE1B2D1CAF" value="&lt;memo&gt;#NOTES#現金またはキャッシュレスで支払いたい" modelElement="EAID_97AC88AC_D0A9_4485_93A6_1DF8542A61D8"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_878F_545DB6B3619B" value="R6" modelElement="EAID_A8D07BF6_B9E5_445b_AB61_606A7BD40755"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_816F_3DD21DFEF382" value="&lt;memo&gt;#NOTES#商品を補充したい" modelElement="EAID_A8D07BF6_B9E5_445b_AB61_606A7BD40755"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_ABFF_593D384391E7" value="R7" modelElement="EAID_CEF9559A_47D9_44e8_9E00_D656596CC6B1"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_8D6F_42192E69258E" value="&lt;memo&gt;#NOTES#釣銭を補充したい" modelElement="EAID_CEF9559A_47D9_44e8_9E00_D656596CC6B1"/>
+		<UML:TaggedValue tag="id" xmi.id="EAID_00000DED_3AF1_773a_BE1F_94E7FD5D2FE3" value="R3" modelElement="EAID_FF09F52E_C540_4de7_95F3_089E082E80AE"/>
+		<UML:TaggedValue tag="text" xmi.id="EAID_00415985_D789_37d7_BA35_FE9A022688E6" value="&lt;memo&gt;#NOTES#入可能な商品を視認したい" modelElement="EAID_FF09F52E_C540_4de7_95F3_089E082E80AE"/>
+		<UML:Diagram name="自動販売機_要求図" xmi.id="EAID_1875002A_E1D5_42d5_80EC_F34B81D436F1" diagramType="CustomDiagram" owner="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="masaki-kato"/>
+				<UML:TaggedValue tag="created_date" value="2025/06/03 16:55:56"/>
+				<UML:TaggedValue tag="modified_date" value="2025/06/03 18:17:46"/>
+				<UML:TaggedValue tag="package" value="EAPK_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:メイリオ,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="tpos" value="0"/>
+				<UML:TaggedValue tag="ea_localid" value="2"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1654;DocSize.cy=1169;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=1;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=8;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=D278A21E;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::Requirement;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:メイリオ,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=738;Top=45;Right=1042;Bottom=148;" subject="EAID_4F0F8B7B_09E2_416e_AFE4_FDB48FA22DB2" seqno="1" style="DUID=3944D943;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=1509;Top=683;Right=1614;Bottom=753;" subject="EAID_A89D403D_519D_4b6d_9868_B8A6681248B1" seqno="2" style="DUID=D6F752D1;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=1180;Top=667;Right=1285;Bottom=737;" subject="EAID_C5EA065D_EEA7_4091_8C6C_3E2E95B1DE87" seqno="3" style="DUID=EE51CC56;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=1042;Top=683;Right=1147;Bottom=753;" subject="EAID_61F1B4D3_DD3F_4bb4_92C3_D63CB4AE3CB9" seqno="4" style="DUID=BA32C1A5;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=910;Top=683;Right=1015;Bottom=753;" subject="EAID_6218F77A_B882_409a_844F_8B6F97945AF0" seqno="5" style="DUID=C7413C01;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=760;Top=687;Right=865;Bottom=757;" subject="EAID_1F959F7F_4B73_4e8b_B352_01BA291D8133" seqno="6" style="DUID=FE153E62;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=623;Top=687;Right=728;Bottom=757;" subject="EAID_1005FEA0_C834_402c_9CD4_98540858DFA6" seqno="7" style="DUID=4989D50C;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=81;Top=685;Right=186;Bottom=755;" subject="EAID_0C87C112_A418_4711_A601_B0482392697D" seqno="8" style="DUID=9AA69A4A;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=283;Top=686;Right=388;Bottom=756;" subject="EAID_B9ED2053_DD65_415b_9E08_493D6F1AEBED" seqno="9" style="DUID=1E50FA69;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=1335;Top=683;Right=1440;Bottom=753;" subject="EAID_5F2E8A29_BA60_48bb_B414_086367A26C4C" seqno="10" style="DUID=FD0018C1;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=458;Top=686;Right=563;Bottom=756;" subject="EAID_D501B921_779F_43fd_988D_B9B37E6F9B0B" seqno="11" style="DUID=06E49537;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=1469;Top=486;Right=1655;Bottom=574;" subject="EAID_48EE4DE0_FF3E_4aed_B8A3_79005D8F5B82" seqno="12" style="DUID=0C6F7EEA;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=1323;Top=486;Right=1433;Bottom=604;" subject="EAID_5598FA84_BE0E_4f12_AD37_1E4CFF316F0A" seqno="13" style="DUID=24D6F00C;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=1178;Top=486;Right=1288;Bottom=604;" subject="EAID_17B1A4C6_D668_4a14_AA72_F8DF58875F05" seqno="14" style="DUID=B510AB41;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=1021;Top=494;Right=1131;Bottom=612;" subject="EAID_CEF9559A_47D9_44e8_9E00_D656596CC6B1" seqno="15" style="DUID=240D45C4;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=889;Top=486;Right=999;Bottom=589;" subject="EAID_A8D07BF6_B9E5_445b_AB61_606A7BD40755" seqno="16" style="DUID=AAD7834C;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=757;Top=486;Right=867;Bottom=604;" subject="EAID_2C60539B_1E32_4700_AF96_EFBCAD95691D" seqno="17" style="DUID=71DECE2B;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=621;Top=486;Right=731;Bottom=604;" subject="EAID_8B4AFEB8_3D76_4a39_BFB4_941E70E9FEE0" seqno="18" style="DUID=71E0D21C;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=445;Top=476;Right=597;Bottom=594;" subject="EAID_FF09F52E_C540_4de7_95F3_089E082E80AE" seqno="19" style="DUID=466E50F6;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=249;Top=476;Right=421;Bottom=564;" subject="EAID_70CD20EB_B744_48d5_8692_C202C29FB80C" seqno="20" style="DUID=C346A674;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=54;Top=471;Right=223;Bottom=589;" subject="EAID_97AC88AC_D0A9_4485_93A6_1DF8542A61D8" seqno="21" style="DUID=C6740606;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=1406;Top=262;Right=1696;Bottom=354;" subject="EAID_68DDE530_02AD_4dc1_BC3D_A22524627683" seqno="22" style="DUID=6DE248E7;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=836;Top=245;Right=1162;Bottom=335;" subject="EAID_5AE6FB85_1EB1_4d40_BD09_27DD85D83050" seqno="23" style="DUID=0F15A5D6;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=272;Top=239;Right=572;Bottom=341;" subject="EAID_4D03DF61_7733_442f_8246_C8DEE8760856" seqno="24" style="DUID=FF9CCEB2;HideIcon=0;UCRect=1;Tag=0;"/>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=1733;Bottom=849;" subject="EAID_9F351AC9_A5F5_4d2a_BEB3_BADC57AAAA3A" seqno="25" style="DUID=9C507B42;NSL=1;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2B642B34_537F_4222_9AA4_F1D75C1941C7" style="Mode=3;EOID=3944D943;SOID=FF9CCEB2;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BF0684EC_F203_45ad_93E1_67FD9E88F827" style="Mode=3;EOID=3944D943;SOID=0F15A5D6;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2C0093F8_1835_4bb4_B1A5_01C6330AFE8F" style="Mode=3;EOID=3944D943;SOID=6DE248E7;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_467D5EB7_C104_4188_A491_4517E09980DD" style="Mode=3;EOID=FF9CCEB2;SOID=C6740606;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6B23B0B0_A56E_4297_9C3C_99347EF58B88" style="Mode=3;EOID=FF9CCEB2;SOID=C346A674;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_85EE757A_B2A9_4985_8BE6_EB96CAE1CD78" style="Mode=3;EOID=FF9CCEB2;SOID=466E50F6;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_89559DAB_7993_4d40_A50F_269F6ADC470A" style="Mode=3;EOID=FF9CCEB2;SOID=71E0D21C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_26A75CA5_9D80_46f5_8651_CA1085080919" style="Mode=3;EOID=0F15A5D6;SOID=71DECE2B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E93BE085_AEA0_44c3_A958_9A53AAD29DE1" style="Mode=3;EOID=0F15A5D6;SOID=AAD7834C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2BF44D29_394D_420c_A1D9_7F3C4E196734" style="Mode=3;EOID=0F15A5D6;SOID=240D45C4;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CE56D456_04A3_468c_9095_4022A6DE62E8" style="Mode=3;EOID=0F15A5D6;SOID=B510AB41;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_68018A62_C6B3_4120_A0FA_41A25B264733" style="Mode=3;EOID=0F15A5D6;SOID=24D6F00C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=80:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BA450097_A19A_46c6_8520_24B1733C38B6" style="Mode=3;EOID=6DE248E7;SOID=0C6F7EEA;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7E56C517_843D_4df0_9D9C_D8FD58CBC421" style="Mode=3;EOID=466E50F6;SOID=06E49537;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AE3DB535_9E6D_42ce_A0D1_BD58A9A3C651" style="Mode=3;EOID=24D6F00C;SOID=FD0018C1;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_68257484_4FA3_45cf_AE30_A8883D825104" style="Mode=3;EOID=C346A674;SOID=1E50FA69;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-8;SY=-13;EX=-8;EY=-13;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7503CE13_C609_457f_8542_A98CA31551B6" style="Mode=3;EOID=C6740606;SOID=9AA69A4A;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_EDC36D85_1038_40b7_9502_86E8531393DD" style="Mode=3;EOID=71E0D21C;SOID=4989D50C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C75440BF_D9EF_4328_BA6B_43ACD18D21CD" style="Mode=3;EOID=71DECE2B;SOID=FE153E62;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_13D321E6_24BA_4d2c_945E_5EEA1CEB2979" style="Mode=3;EOID=AAD7834C;SOID=C7413C01;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_32F644A2_7FAF_4fdc_B9E6_45BE19DFF322" style="Mode=3;EOID=240D45C4;SOID=BA32C1A5;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_46B2C93F_818E_4fd0_AE94_837202605023" style="Mode=3;EOID=B510AB41;SOID=EE51CC56;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-6;SY=2;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=16:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_36DF6A2D_AC53_4185_8EC5_D369C8EC0BCE" style="Mode=3;EOID=0C6F7EEA;SOID=D6F752D1;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_C5EA065D_EEA7_4091_8C6C_3E2E95B1DE87" name="UC8 販売商品を変更する" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_1F959F7F_4B73_4e8b_B352_01BA291D8133" name="UC5 売上金を回収する" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_A89D403D_519D_4b6d_9868_B8A6681248B1" name="UC9 故障対応を行う" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_5F2E8A29_BA60_48bb_B414_086367A26C4C" name="UC10 機械の状態を確認する" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_B9ED2053_DD65_415b_9E08_493D6F1AEBED" name="UC2 商品を選択して購入する" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_1005FEA0_C834_402c_9CD4_98540858DFA6" name="UC4 釣銭・返金を受け取る" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_0C87C112_A418_4711_A601_B0482392697D" name="UC3 お金を投入する" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_6218F77A_B882_409a_844F_8B6F97945AF0" name="UC6 商品を補充する" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_61F1B4D3_DD3F_4bb4_92C3_D63CB4AE3CB9" name="UC7 釣銭を補充する" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_D501B921_779F_43fd_988D_B9B37E6F9B0B" name="UC1 商品一覧を表示する" UMLType="UseCase"/>
+	</XMI.extensions>
+</XMI>
